@@ -1,0 +1,50 @@
+# 1453 - Stonemaul Ruins.txt
+is_city = yes
+
+owner = A99
+controller = A99
+add_core = A99
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_black
+religion = religion_old_gods
+
+trade_goods = fish
+hre = no
+
+600.1.1 = { 
+    owner = F57
+    controller = F57
+    add_core = F57
+    culture = culture_stonemaul
+    religion = religion_geomancy 
+    base_tax = 3
+    base_manpower = 4
+    base_production = 3
+    capital = "Stonemaul Village"
+}
+
+618.1.1 = {
+    religion = religion_ancestral
+}
+
+# Rise of the Qiraji
+622.1.1 = { 
+    owner = A99
+    controller = A99
+    add_core = A99
+    culture = culture_black
+    religion = religion_old_gods
+    capital = "Den of Flames"
+}
+
+632.1.1 = {
+    is_city = no
+    owner = XXX
+    controller = XXX
+    remove_core = A99
+}
+

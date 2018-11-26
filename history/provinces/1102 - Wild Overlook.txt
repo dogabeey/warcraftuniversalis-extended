@@ -1,0 +1,14 @@
+# 1102 - Wild Overlook.txt
+is_city = yes
+
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_steamwheedle
+religion = religion_tech
+
+trade_goods = grain
+hre = no
+

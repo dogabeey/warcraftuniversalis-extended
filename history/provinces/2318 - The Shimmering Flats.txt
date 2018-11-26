@@ -1,0 +1,17 @@
+# 2318 - The Shimmering Flats.txt
+is_city = yes
+
+owner = B57
+controller = B57
+add_core = B57
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_gravelsnout
+religion = religion_geomancy
+
+trade_goods = grain
+hre = no
+

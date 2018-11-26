@@ -1,0 +1,17 @@
+# Faceless
+government 			= cult_gov
+mercantilism 		= 10
+technology_group 	= tech_old_god
+religion			= religion_old_gods
+primary_culture 	= culture_cultist
+capital 			= 1
+
+546.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "N'Zoth" 
+		adm = 5
+		dip = 5
+		mil = 5
+ 	} 
+ } 

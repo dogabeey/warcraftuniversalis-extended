@@ -1,0 +1,23 @@
+# 1026 - Seradane.txt
+is_city = yes 
+
+owner = B04
+controller = B04
+add_core = B04
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = culture_green
+religion = religion_sect_of_dragons
+
+trade_goods = lumber
+hre = no 
+
+631.1.1 = {
+    is_city = no
+    controller = XXX
+    owner = XXX
+    remove_core = B04
+}

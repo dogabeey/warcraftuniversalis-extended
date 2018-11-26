@@ -1,0 +1,57 @@
+country_decisions = {
+	awaken_cthun = {
+		major = yes
+		
+		potential = {
+			tag = U02
+			culture_group = culture_group_aqir
+			is_colonial_nation = no
+		}
+		
+		allow = {
+            stability = 3
+            adm_power = 250
+            dip_power = 250
+            mil_power = 250	
+		}
+		
+		effect = {
+			set_country_flag = awakening_cthun
+			add_stability = -3
+            add_adm_power = -250
+            add_dip_power = -250
+            add_mil_power = -250
+			
+			declare_war = A94
+			declare_war = B02
+			declare_war = B03
+			declare_war = B04
+			declare_war = F88
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+country_decisions = {
+	kill_cthun = {
+		major = yes
+		
+		potential = {
+			NOT = { tag = U02 }
+			has_global_flag = cthun_alive
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+		
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

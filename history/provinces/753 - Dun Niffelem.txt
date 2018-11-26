@@ -1,0 +1,17 @@
+# 753 - Dun Niffelem.txt
+is_city = yes
+
+owner = F42
+controller = F42
+add_core = F42
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = culture_ice_giant
+religion = religion_titan
+
+trade_goods = army_supplies
+hre = no
+

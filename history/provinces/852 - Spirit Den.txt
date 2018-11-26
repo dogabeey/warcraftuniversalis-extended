@@ -1,0 +1,17 @@
+# 852 - Spirit Den.txt
+is_city = yes
+
+owner = A68
+controller = A68
+add_core = A68
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_shatterspear
+religion = religion_loa
+
+trade_goods = runecloth
+hre = no
+

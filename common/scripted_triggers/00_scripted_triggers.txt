@@ -1,0 +1,437 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = SWE
+#		ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+# Used to determine style of random events
+is_civilized = {
+    OR = {
+        technology_group = tech_human
+        technology_group = tech_gnome
+        technology_group = tech_darnassian
+        technology_group = tech_thalassian
+        technology_group = tech_dwarven
+        technology_group = tech_draenei
+        technology_group = tech_goblin
+        technology_group = tech_tauren
+        technology_group = tech_undead
+        technology_group = tech_titan
+        technology_group = tech_worgen
+        technology_group = tech_arrakoa
+        technology_group = tech_tuskarr
+        technology_group = tech_pandaren
+        technology_group = tech_ethereal
+    }
+}
+
+is_savage = {
+    OR = {
+        technology_group = tech_orc
+        technology_group = tech_ogre
+        technology_group = tech_troll
+        technology_group = tech_naga
+        technology_group = tech_scourge
+        technology_group = tech_mogu
+        technology_group = tech_yaungol
+        technology_group = tech_vrykul
+    }
+}
+
+is_lesser = {
+    OR = {
+        technology_group = tech_satyr
+        technology_group = tech_depths
+        technology_group = tech_gnoll
+        technology_group = tech_centaur
+        technology_group = tech_furbolg
+        technology_group = tech_wolfvar
+        technology_group = tech_gorloc
+        technology_group = tech_kobold
+        technology_group = tech_harpy
+        technology_group = tech_quillboar
+        technology_group = tech_primitive
+        technology_group = tech_magnataur
+    }
+}
+
+is_bug = {
+    OR = {
+        technology_group = tech_aqir
+        technology_group = tech_mantid
+    }
+}
+
+is_otherworld = {
+    OR = {
+        technology_group = tech_demonic
+        technology_group = tech_old_god
+        technology_group = tech_dragonkin
+        technology_group = tech_elemental
+    }
+}
+
+is_pure_evil = {
+    OR = {
+        technology_group = tech_demonic
+        technology_group = tech_old_god
+    }
+}
+
+is_good = {
+  OR = {
+    religion = religion_scarlet_light
+    religion = religion_church_of_the_light
+    religion = religion_argent_light
+    religion = religion_light_of_the_naaru
+    religion = religion_light_of_the_sunwell
+    religion = religion_forgotten_shadow
+    religion = religion_ancestral
+    religion = religion_tech
+    religion = religion_arcane
+    religion = religion_titan
+    religion = religion_mystery_of_the_makers
+    religion = religion_elune
+    religion = religion_sect_of_dragons
+    religion = religion_arkkorok
+    religion = religion_druidic
+    religion = religion_loa
+    religion = religion_celestial
+    religion = religion_zangar
+    religion = religion_primitive
+  }
+}
+
+is_evil = {
+  OR = {
+    religion = religion_fel
+    religion = religion_hakkari
+    religion = religion_titan_corrupt
+    religion = religion_shadow
+    religion = religion_old_gods
+    religion = religion_the_damned
+    religion = religion_void
+    religion = religion_voodoo
+    religion = religion_geomancy
+    religion = religion_fire
+    religion = religion_earth
+    religion = religion_air
+    religion = religion_water
+    religion = religion_greed
+    religion = religion_terokk
+  }
+}
+
+# ROM
+#GENERAL TRIGGERS
+has_mil_advisor = {
+	OR = {
+		advisor = army_organiser
+		advisor = army_reformer
+		advisor = commandant
+		advisor = grand_captain
+		advisor = recruitmaster
+		advisor = fortification_expert
+		advisor = quartermaster
+	}
+}
+
+has_adm_advisor = {
+	OR = {
+		advisor = treasurer
+		advisor = philosopher
+		advisor = artist
+ 		advisor = theologian
+		advisor = master_of_mint
+		advisor = inquisitor
+		advisor = natural_scientist
+	}
+}
+
+
+has_dip_advisor = {
+	OR = {
+		advisor = statesman
+		advisor = diplomat
+		advisor = naval_reformer
+		advisor = trader
+		advisor = colonial_governor
+		advisor = navigator
+		advisor = spymaster
+	}
+}
+
+is_subject_other_than_tributary_trigger = { #Ie Tags that cannot conduct independent diplomacy
+	is_subject = yes
+	NOT = { is_subject_of_type = tributary_state }
+}
+
+is_free_or_tributary_trigger = { #I.e. Tags that can conduct independent diplomacy
+	OR = {
+		is_subject = no
+		is_subject_of_type = tributary_state
+	}
+}
+
+
+# Third Rome Triggers
+has_russian_government_interaction = {
+	has_dlc = "Third Rome"
+	OR = {
+		government = tsardom
+		government = principality
+		government = veche_republic
+	}
+}
+
+
+#RIGHTS OF MAN TRIGGERS
+
+#Ruler personality triggers
+ruler_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		ruler_has_personality = just_personality
+		ruler_has_personality = righteous_personality
+		ruler_has_personality = tolerant_personality
+		ruler_has_personality = free_thinker_personality
+		ruler_has_personality = calm_personality
+		ruler_has_personality = zealot_personality
+		ruler_has_personality = pious_personality
+		ruler_has_personality = lawgiver_personality
+		ruler_has_personality = midas_touched_personality
+		ruler_has_personality = incorruptible_personality
+		ruler_has_personality = architectural_visionary_personality
+		ruler_has_personality = scholar_personality
+	}
+}
+
+ruler_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = careful_personality
+		ruler_has_personality = entrepreneur_personality
+		ruler_has_personality = industrious_personality
+		ruler_has_personality = expansionist_personality
+		ruler_has_personality = navigator_personality
+		ruler_has_personality = well_connected_personality
+		ruler_has_personality = secretive_personality
+		ruler_has_personality = intricate_web_weaver_personality
+		ruler_has_personality = benevolent_personality
+		ruler_has_personality = charismatic_negotiator_personality
+		ruler_has_personality = silver_tongue_personality
+	}
+}
+
+ruler_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = bold_fighter_personality
+		ruler_has_personality = tactical_genius_personality
+		ruler_has_personality = fierce_negotiator_personality
+		ruler_has_personality = conqueror_personality
+		ruler_has_personality = strict_personality
+		ruler_has_personality = inspiring_leader_personality
+		ruler_has_personality = martial_educator_personality
+		ruler_has_personality = kind_hearted_personality
+	}
+}
+
+ruler_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = embezzler_personality
+		ruler_has_personality = sinner_personality
+		ruler_has_personality = greedy_personality
+		ruler_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+ruler_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = drunkard_personality
+		ruler_has_personality = babbling_buffoon_personality
+		ruler_has_personality = cruel_personality
+		ruler_has_personality = naive_personality
+		ruler_has_personality = malevolent_personality
+		ruler_has_personality = loose_lips_personality
+	}
+}
+
+ruler_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	ruler_has_personality = craven_personality
+	#}
+}
+
+#Heir personality triggers
+heir_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		heir_has_personality = just_personality
+		heir_has_personality = righteous_personality
+		heir_has_personality = tolerant_personality
+		heir_has_personality = free_thinker_personality
+		heir_has_personality = calm_personality
+		heir_has_personality = zealot_personality
+		heir_has_personality = pious_personality
+		heir_has_personality = lawgiver_personality
+		heir_has_personality = midas_touched_personality
+		heir_has_personality = incorruptible_personality
+		heir_has_personality = architectural_visionary_personality
+		heir_has_personality = scholar_personality
+	}
+}
+
+heir_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = careful_personality
+		heir_has_personality = entrepreneur_personality
+		heir_has_personality = industrious_personality
+		heir_has_personality = expansionist_personality
+		heir_has_personality = navigator_personality
+		heir_has_personality = well_connected_personality
+		heir_has_personality = secretive_personality
+		heir_has_personality = intricate_web_weaver_personality
+		heir_has_personality = benevolent_personality
+		heir_has_personality = charismatic_negotiator_personality
+		heir_has_personality = silver_tongue_personality
+
+	}
+}
+
+heir_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = bold_fighter_personality
+		heir_has_personality = tactical_genius_personality
+		heir_has_personality = fierce_negotiator_personality
+		heir_has_personality = conqueror_personality
+		heir_has_personality = strict_personality
+		heir_has_personality = inspiring_leader_personality
+		heir_has_personality = martial_educator_personality
+		heir_has_personality = kind_hearted_personality
+	}
+}
+
+heir_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = embezzler_personality
+		heir_has_personality = sinner_personality
+		heir_has_personality = greedy_personality
+		heir_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+heir_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = drunkard_personality
+		heir_has_personality = babbling_buffoon_personality
+		heir_has_personality = cruel_personality
+		heir_has_personality = naive_personality
+		heir_has_personality = malevolent_personality
+		heir_has_personality = loose_lips_personality
+	}
+}
+
+heir_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	heir_has_personality = craven_personality
+	#}
+}
+
+#Queen personality triggers
+consort_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		consort_has_personality = just_personality
+		consort_has_personality = righteous_personality
+		consort_has_personality = tolerant_personality
+		consort_has_personality = free_thinker_personality
+		consort_has_personality = calm_personality
+		consort_has_personality = zealot_personality
+		consort_has_personality = pious_personality
+		consort_has_personality = lawgiver_personality
+		consort_has_personality = midas_touched_personality
+		consort_has_personality = incorruptible_personality
+		consort_has_personality = architectural_visionary_personality
+		consort_has_personality = scholar_personality
+	}
+}
+
+consort_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = careful_personality
+		consort_has_personality = entrepreneur_personality
+		consort_has_personality = industrious_personality
+		consort_has_personality = expansionist_personality
+		consort_has_personality = navigator_personality
+		consort_has_personality = well_connected_personality
+		consort_has_personality = secretive_personality
+		consort_has_personality = intricate_web_weaver_personality
+		consort_has_personality = benevolent_personality
+		consort_has_personality = charismatic_negotiator_personality
+		consort_has_personality = silver_tongue_personality
+
+	}
+}
+
+consort_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = bold_fighter_personality
+		consort_has_personality = tactical_genius_personality
+		consort_has_personality = fierce_negotiator_personality
+		consort_has_personality = conqueror_personality
+		consort_has_personality = strict_personality
+		consort_has_personality = inspiring_leader_personality
+		consort_has_personality = martial_educator_personality
+		consort_has_personality = kind_hearted_personality
+	}
+}
+
+consort_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = embezzler_personality
+		consort_has_personality = sinner_personality
+		consort_has_personality = greedy_personality
+		consort_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+consort_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = drunkard_personality
+		consort_has_personality = babbling_buffoon_personality
+		consort_has_personality = cruel_personality
+		consort_has_personality = naive_personality
+		consort_has_personality = malevolent_personality
+		consort_has_personality = loose_lips_personality
+	}
+}
+
+consort_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	consort_has_personality = craven_personality
+	#}
+}
+

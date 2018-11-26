@@ -1,0 +1,30 @@
+namespace = aqir
+
+country_event = {
+	id = awakening_ritual
+	title = awakening_ritual.title
+	desc = awakening_ritual.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = yes
+    
+	trigger = {
+		has_country_flag = awakening_cthun
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+        name = awakening_ritual.opt1
+		set_global_flag = cthun_alive
+		add_country_modifier = { 
+			name = summoned_oldgod
+			duration = -1  
+			desc = summoned_oldgod.desc
+			hidden = no
+		}
+	}
+}

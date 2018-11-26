@@ -1,0 +1,17 @@
+# 2111 - Heart's Blood Shrine.txt
+is_city = yes
+
+owner = B46
+controller = B46
+add_core = B46
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = culture_redfang
+religion = religion_old_gods
+
+trade_goods = fur
+hre = no
+

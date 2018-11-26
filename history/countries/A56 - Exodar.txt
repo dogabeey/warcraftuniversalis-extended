@@ -1,0 +1,21 @@
+# Exodar
+government 			= administrative_theocracy
+mercantilism 		= 10
+technology_group 	= tech_draenei
+religion			= religion_light_of_the_naaru
+primary_culture 	= culture_karaborian
+capital 			= 1608
+
+546.1.1 = { 
+monarch = { 
+     name = "Velen" 
+     dynasty = "of Argus" 
+		adm = 3
+		dip = 5
+		mil = 2
+ 	} 
+ } 
+
+625.1.1 = {
+capital = 1087
+}

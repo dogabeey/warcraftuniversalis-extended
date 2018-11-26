@@ -1,0 +1,16 @@
+# 1464 - Razorfen Approach.txt
+is_city = yes
+
+owner = B70
+controller = B70
+add_core = B70
+
+base_tax = 3
+base_manpower = 3
+
+culture = culture_razorfen
+religion = religion_geomancy
+
+trade_goods = fur
+hre = no
+

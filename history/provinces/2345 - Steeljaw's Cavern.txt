@@ -1,0 +1,17 @@
+# 2345 - Steeljaw's Cavern.txt
+is_city = yes
+
+owner = B33
+controller = B33
+add_core = B33
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_nerglish
+religion = religion_water
+
+trade_goods = grain
+hre = no
+

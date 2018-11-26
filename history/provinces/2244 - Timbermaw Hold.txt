@@ -1,0 +1,17 @@
+# 2244 - Timbermaw Hold.txt
+is_city = yes
+
+owner = G21
+controller = G21
+add_core = G21
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_blackmaw
+religion = religion_ancestral
+
+trade_goods = grain
+hre = no
+

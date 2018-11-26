@@ -1,0 +1,17 @@
+# 2406 - The Court of Skulls.txt
+is_city = yes
+
+owner = B64
+controller = B64
+add_core = B64
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_coldwind
+religion = religion_air
+
+trade_goods = grain
+hre = no
+

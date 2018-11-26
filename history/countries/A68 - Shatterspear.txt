@@ -1,0 +1,30 @@
+# Shatterspear
+government 			= warband_gov
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= religion_loa
+primary_culture 	= culture_shatterspear
+capital 			= 883
+
+546.1.1 = { 
+	monarch = { 
+		name = "Rit'ko" 
+		dynasty = "Shatterspear" 
+		adm = 4
+		dip = 5
+		mil = 4
+                
+	} 
+} 
+
+
+618.1.1 = {
+    capital = 1296
+}
+
+631.1.1 = {
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }
+} 

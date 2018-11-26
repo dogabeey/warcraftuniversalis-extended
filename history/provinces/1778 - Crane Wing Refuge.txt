@@ -1,0 +1,17 @@
+# 1778 - Crane Wing Refuge.txt
+is_city = yes
+
+owner = P83
+controller = P83
+add_core = P83
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = culture_riverblade
+religion = religion_voodoo
+
+trade_goods = fish
+hre = yes
+

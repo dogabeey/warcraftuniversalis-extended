@@ -1,0 +1,70 @@
+country_decisions = {
+	reform_warband = {
+		major = yes
+		potential = {
+			government = warband_gov
+			is_good = yes
+		}
+		allow = {
+			stability = 1
+			government = warband_gov
+			is_good = yes
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			change_government = war_tribe
+			add_stability = -4
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0.5
+				personality = ai_diplomat
+				OR = {
+					dip = 5
+					adm = 5
+				}
+			}
+		}
+	}
+	
+	create_warband = {
+		major = yes
+		potential = {
+			OR = {
+				government = religious_tribe
+				government = mercantile_tribe
+				government = war_tribe
+			}
+			is_evil = yes
+		}
+		allow = {
+			stability = 1
+			OR = {
+				government = religious_tribe
+				government = mercantile_tribe
+				government = war_tribe
+			}
+			is_evil = yes
+			is_at_war = no
+			is_subject = no
+		}
+		effect = {
+			change_government = warband_gov
+			add_stability = -4
+		}
+		ai_will_do = {
+			factor = 0
+            
+			modifier = {
+				factor = 0.5
+                personality = ai_militarist
+				OR = {
+					mil = 5
+					adm = 5
+				}
+			}  
+		}
+	}
+}
