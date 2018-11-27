@@ -6,6 +6,7 @@ country_decisions = {
 			tag = U02
 			culture_group = culture_group_aqir
 			is_colonial_nation = no
+			NOT = { has_country_flag = awakening_cthun }
 		}
 		
 		allow = {
@@ -39,15 +40,20 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			NOT = { tag = U02 }
+			NOT = { religion = religion_old_gods }
 			has_global_flag = cthun_alive
 		}
 		
 		allow = {
+			mil_power = 250
 		}
 		
 		effect = {
-		
+			add_mil_power = -250
+			U02 = {
+				remove_country_modifier = summoned_oldgod
+			}
+			clr_global_flag = cthun_alive
 		}
 		
 		ai_will_do = {

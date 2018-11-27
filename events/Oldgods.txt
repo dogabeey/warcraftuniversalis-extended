@@ -1,4 +1,4 @@
-namespace = aqir
+namespace = oldgod
 
 country_event = {
 	id = awakening_ritual
@@ -7,14 +7,14 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
-    fire_only_once = yes
+    fire_only_once = no
     
 	trigger = {
 		has_country_flag = awakening_cthun
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 2
 	}
 	
 	option = {
@@ -26,5 +26,6 @@ country_event = {
 			desc = summoned_oldgod.desc
 			hidden = no
 		}
+		clr_country_flag = awakening_cthun
 	}
 }
