@@ -1,10 +1,13 @@
 ﻿l_english:
  #-----------------------------------------------
- # Aqir
+ # Old Gods
  #-----------------------------------------------
- awakening_ritual.title: "C'thun Rises!"
- awakening_ritual.desc: "Despite all efforts of petty mortal kingdoms of Azeroth, you managed to fully awake the Old God, C'thun. Azeroth is at your mercy. Nothing can stop this incredibly powerful God."
- awakening_ritual.opt1: "Vwyq agth sshoq'meg C'thun vra zz shfk qwor ga'halahs agthu!"
+ awakening_ritual_cthun.title: "C'thun Rises!"
+ awakening_ritual_cthun.desc: "Despite all efforts of petty mortal kingdoms of Azeroth, you managed to fully awake the Old God, C'thun. Azeroth is at your mercy. Nothing can stop this incredibly powerful God."
+ awakening_ritual_cthun.opt1: "Vwyq agth sshoq'meg C'thun vra zz shfk qwor ga'halahs agthu!"
+ awakening_ritual_cthun_notify.title: "C'thun is rising!"
+ awakening_ritual_cthun_notify.desc: "Despite all efforts of many races of Azeroth, filthy Aqir started summoning their dead God, C'thun. If they cannot be stopped, The Aqir will be powerful enough to destroy all Azeroth."
+ awakening_ritual_cthun_notify.opt1: "Terrifying news!"
  #-----------------------------------------------
  # Rise of the Horde
  #-----------------------------------------------

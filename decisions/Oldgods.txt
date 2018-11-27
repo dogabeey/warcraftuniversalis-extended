@@ -11,17 +11,17 @@ country_decisions = {
 		
 		allow = {
             stability = 3
-            adm_power = 250
-            dip_power = 250
-            mil_power = 250	
+            adm_power = 750
+            dip_power = 750
+            mil_power = 750	
 		}
 		
 		effect = {
 			set_country_flag = awakening_cthun
 			add_stability = -3
-            add_adm_power = -250
-            add_dip_power = -250
-            add_mil_power = -250
+            add_adm_power = -750
+            add_dip_power = -750
+            add_mil_power = -750
 			
 			declare_war = A94
 			declare_war = B02
@@ -46,6 +46,7 @@ country_decisions = {
 		
 		allow = {
 			mil_power = 250
+			owns_core_province = 1520
 		}
 		
 		effect = {

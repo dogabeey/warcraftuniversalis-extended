@@ -4,7 +4,8 @@ capital_scope = { province_event = { id = war_dynamism.3 } }
 country_event = { id = war_dynamism.100 }
 country_event = { id = war_dynamism.101 }
 country_event = { id = WARCRAFT_TIRISFAL.1 }
-country_event = { id = awakening_ritual }
+country_event = { id = awakening_ritual_cthun }
+country_event = { id = awakening_ritual_cthun_notify }
 country_event = { id = story.1 }
 country_event = { id = story.2 }
 country_event = { id = story.3 }

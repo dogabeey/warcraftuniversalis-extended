@@ -1,9 +1,9 @@
 namespace = oldgod
 
 country_event = {
-	id = awakening_ritual
-	title = awakening_ritual.title
-	desc = awakening_ritual.desc
+	id = awakening_ritual_cthun
+	title = awakening_ritual_cthun.title
+	desc = awakening_ritual_cthun.desc
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
@@ -14,11 +14,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 2
+		months = 3
 	}
 	
 	option = {
-        name = awakening_ritual.opt1
+        name = awakening_ritual_cthun.opt1
 		set_global_flag = cthun_alive
 		add_country_modifier = { 
 			name = summoned_oldgod
@@ -27,5 +27,29 @@ country_event = {
 			hidden = no
 		}
 		clr_country_flag = awakening_cthun
+	}
+}
+
+country_event = {
+	id = awakening_ritual_cthun_notify
+	title = awakening_ritual_cthun_notify.title
+	desc = awakening_ritual_cthun_notify.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = no
+    
+	trigger = {
+		any_country = {
+			has_country_flag = awakening_cthun
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+        name = awakening_ritual_cthun_notify.opt1
 	}
 }
