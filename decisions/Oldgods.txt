@@ -40,7 +40,7 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			NOT = { religion = religion_old_gods }
+			NOT = { religion_group = religion_group_old_god }
 			has_global_flag = cthun_alive
 		}
 		
@@ -55,6 +55,71 @@ country_decisions = {
 				remove_country_modifier = summoned_oldgod
 			}
 			clr_global_flag = cthun_alive
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+country_decisions = {
+	awaken_yoggsaron = {
+		major = yes
+		
+		potential = {
+			owns_core_province = 2495
+			religion_group = religion_group_old_god
+			is_colonial_nation = no
+			NOT = { has_country_flag = awakening_yoggsaron }
+		}
+		
+		allow = {
+            stability = 3
+            adm_power = 750
+            dip_power = 750
+            mil_power = 750	
+		}
+		
+		effect = {
+			set_country_flag = awakening_yoggsaron
+			add_stability = -3
+            add_adm_power = -750
+            add_dip_power = -750
+            add_mil_power = -750
+			
+			every_country = {
+				limit = {
+					
+				}
+				declare_war = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+country_decisions = {
+	kill_yoggsaron = {
+		major = yes
+		
+		potential = {
+			NOT = { religion_group = religion_group_old_god }
+			has_global_flag = yoggsaron_alive
+		}
+		
+		allow = {
+			mil_power = 250
+			owns_core_province = 2495
+		}
+		
+		effect = {
+			add_mil_power = -250
+			U02 = {
+				remove_country_modifier = summoned_oldgod
+			}
+			clr_global_flag = yoggsaron_alive
 		}
 		
 		ai_will_do = {
