@@ -53,3 +53,29 @@ country_event = {
         name = awakening_ritual_cthun_notify.opt1
 	}
 }
+
+country_event = {
+	id = yoggsaron_whisper
+	title = yoggsaron_whisper.title
+	desc = yoggsaron_whisper.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = no
+    
+	trigger = {
+		owns_core_province = 2495
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+        name = yoggsaron_whisper.opt1
+		set_country_flag = guided_by_whispers
+	}
+	option = {
+        name = yoggsaron_whisper.opt2
+	}
+}

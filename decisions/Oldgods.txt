@@ -67,9 +67,8 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			owns_core_province = 2495
-			religion_group = religion_group_old_god
 			is_colonial_nation = no
+			has_country_flag = guided_by_whispers
 			NOT = { has_country_flag = awakening_yoggsaron }
 		}
 		
@@ -77,7 +76,8 @@ country_decisions = {
             stability = 3
             adm_power = 750
             dip_power = 750
-            mil_power = 750	
+            mil_power = 750
+			owns_core_province = 2495
 		}
 		
 		effect = {
@@ -86,12 +86,6 @@ country_decisions = {
             add_adm_power = -750
             add_dip_power = -750
             add_mil_power = -750
-			
-			every_country = {
-				limit = {
-					
-				}
-				declare_war = ROOT
 			}
 		}
 		

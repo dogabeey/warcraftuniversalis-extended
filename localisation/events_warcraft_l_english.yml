@@ -8,6 +8,10 @@
  awakening_ritual_cthun_notify.title: "C'thun is rising!"
  awakening_ritual_cthun_notify.desc: "Despite all efforts of many races of Azeroth, filthy Aqir started summoning their dead God, C'thun. If they cannot be stopped, The Aqir will be powerful enough to destroy all Azeroth."
  awakening_ritual_cthun_notify.opt1: "Terrifying news!"
+ yoggsaron_whisper.title: "Whispers of the Old!"
+ yoggsaron_whisper.desc: "Since you conquered Ulduar, you're hearing whispers from a omniscent being imprisoned there. Recently, whispers gone louder and you feel like your insanity is draining away. You're forced to do something about this."
+ yoggsaron_whisper.opt1: "Travel to Ulduar and unearth the evil lurking there."
+ yoggsaron_whisper.opt2: "Whispers are never a good omen. Ignore it!"
  #-----------------------------------------------
  # Rise of the Horde
  #-----------------------------------------------
