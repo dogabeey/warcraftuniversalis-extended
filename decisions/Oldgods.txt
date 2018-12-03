@@ -87,13 +87,14 @@ country_decisions = {
             add_dip_power = -750
             add_mil_power = -750
 			}
-		}
 		
 		ai_will_do = {
 			factor = 1
 		}
+		
 	}
 }
+
 country_decisions = {
 	kill_yoggsaron = {
 		major = yes
