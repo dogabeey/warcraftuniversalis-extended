@@ -14,7 +14,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 48
 	}
 	
 	option = {
@@ -68,7 +68,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 24
 	}
 	
 	option = {
@@ -77,5 +77,58 @@ country_event = {
 	}
 	option = {
         name = yoggsaron_whisper.opt2
+	}
+}
+country_event = {
+	id = awakening_ritual_yoggsaron
+	title = awakening_ritual_yoggsaron.title
+	desc = awakening_ritual_yoggsaron.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = no
+    
+	trigger = {
+		has_country_flag = awakening_yoggsaron
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {
+        name = awakening_ritual_yoggsaron.opt1
+		set_global_flag = yoggsaron_alive
+		add_country_modifier = { 
+			name = summoned_oldgod
+			duration = -1  
+			desc = summoned_oldgod.desc
+			hidden = no
+		}
+		clr_country_flag = awakening_yoggsaron
+	}
+}
+
+country_event = {
+	id = awakening_ritual_yoggsaron_notify
+	title = awakening_ritual_yoggsaron_notify.title
+	desc = awakening_ritual_yoggsaron_notify.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = no
+    
+	trigger = {
+		any_country = {
+			has_country_flag = awakening_yoggsaron
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+        name = awakening_ritual_yoggsaron_notify.opt1
 	}
 }
