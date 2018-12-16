@@ -176,3 +176,16 @@ country_event = {
 			}
 	}
 }
+country_event = {
+	id = nzoth_communed
+	title = nzoth_communed.title
+	desc = nzoth_communed.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+	is_triggered_only = yes
+	
+	option = {
+        name = nzoth_communed.opt1
+	}
+}
