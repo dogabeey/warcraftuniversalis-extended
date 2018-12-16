@@ -90,4 +90,8 @@ recently_conjured = {
     prestige = 0.5	
 }
 
+communed_tidemother = {
+    local_missionary_strength = 0.1
+}
+
 

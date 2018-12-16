@@ -80,18 +80,18 @@ country_decisions = {
 		
 		allow = {
             stability = 3
-            adm_power = 750
-            dip_power = 750
-            mil_power = 750
+            adm_power = 500
+            dip_power = 500
+            mil_power = 500
 			owns_core_province = 2495
 		}
 		
 		effect = {
 			set_country_flag = awakening_yoggsaron
 			add_stability = -3
-            add_adm_power = -750
-            add_dip_power = -750
-            add_mil_power = -750
+            add_adm_power = -500
+            add_dip_power = -500
+            add_mil_power = -500
 			
 			every_country = { 
 				limit = {
@@ -133,6 +133,41 @@ country_decisions = {
 				remove_country_modifier = summoned_oldgod
 			}
 			clr_global_flag = yoggsaron_alive
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_decisions = {
+	commune_with_tidemother = {
+		major = yes
+		
+		potential = {
+			religion = religion_water
+		}
+		
+		allow = {
+			adm_power = 100
+			NOT = { has_country_modifier = communed_tidemother }
+		}
+		
+		effect = {
+			add_adm_power = -100
+			random_list = {
+				95 = {
+					add_country_modifier = { 
+						name = communed_tidemother 
+						duration = 365
+						hidden = no
+					}
+				}
+				5 = {
+					set_country_flag = influenced_by_nzoth
+				}
+			}
 		}
 		
 		ai_will_do = {
