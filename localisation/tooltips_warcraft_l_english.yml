@@ -17,3 +17,6 @@
  AZEROTHIAN_ALLIANCE_RALLIES: "The Azerothian alliance rallies!"
  STORMWIND_IS_OVERRUN: "Stormwind is overrun, and it's people scattered to the north."
  DARK_PORTAL_IS_CLOSED: "The Dark Portal is closed, and the orcish hordes trapped on Azeroth."
+ 
+ influenced_by_nzoth_text: "You start hearing voice of N'zoth."
+ influenced_by_nzoth_clear: "N'zoth stops whispering you."

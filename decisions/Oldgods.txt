@@ -166,6 +166,7 @@ country_decisions = {
 				}
 				99 = {
 					set_country_flag = influenced_by_nzoth
+					custom_tooltip = influenced_by_nzoth_text
 				}
 			}
 		}
