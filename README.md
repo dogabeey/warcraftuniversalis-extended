@@ -7,9 +7,12 @@ Legion Invasion for Fel religions & more.
 
 #### Supports warcraft universalis' current version, 1.22
 
+## Current Features
+
+* Decisions to summon Old Gods for certain countries when certain conditions met, and Decisions for "good" countries to kill them. Curently all Old Gods except Y'shaarj are summonable.
+
 ## Planned Features
 
-* Decisions to summon Old Gods for certain countries when certain conditions met, and Decisions for "good" countries to kill them.
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
 
