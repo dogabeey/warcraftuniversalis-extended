@@ -146,7 +146,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -159,7 +159,7 @@ country_event = {
 				40 = {
 					add_stability = -1
 				}
-				40 = {
+				50 = {
 					random_province =
 					{
 						change_religion = religion_old_gods
@@ -169,7 +169,7 @@ country_event = {
 						change_religion = religion_old_gods
 					}
 				}
-				20 = {
+				10 = {
 					clr_country_flag = influenced_by_nzoth
 					custom_tooltip = influenced_by_nzoth_clear
 				}
