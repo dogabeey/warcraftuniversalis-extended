@@ -132,3 +132,46 @@ country_event = {
         name = awakening_ritual_yoggsaron_notify.opt1
 	}
 }
+country_event = {
+	id = nzoth_whisper
+	title = nzoth_whisper.title
+	desc = nzoth_whisper.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = no
+    fire_only_once = no
+    
+	trigger = {
+		has_country_flag = influenced_by_nzoth
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+        name = nzoth_whisper.opt1
+		change_religion = religion_old_gods
+	}
+	option = {
+        name = nzoth_whisper.opt2
+		random_list = {
+				40 = {
+					add_stability = -1
+				}
+				40 = {
+					random_province =
+					{
+						change_religion = religion_old_gods
+					}
+					random_province =
+					{
+						change_religion = religion_old_gods
+					}
+				}
+				20 = {
+					clr_country_flag = influenced_by_nzoth
+				}
+			}
+	}
+}
