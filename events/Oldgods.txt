@@ -39,15 +39,7 @@ country_event = {
 	hidden = no
     fire_only_once = no
     
-	trigger = {
-		any_country = {
-			has_country_flag = awakening_cthun
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
         name = awakening_ritual_cthun_notify.opt1
@@ -118,15 +110,7 @@ country_event = {
 	hidden = no
     fire_only_once = no
     
-	trigger = {
-		any_country = {
-			has_country_flag = awakening_yoggsaron
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
         name = awakening_ritual_yoggsaron_notify.opt1
