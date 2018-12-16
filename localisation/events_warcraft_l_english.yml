@@ -12,6 +12,10 @@
  yoggsaron_whisper.desc: "Since you conquered Ulduar, you're hearing whispers from a omniscent being imprisoned there. Recently, whispers gone louder and you feel like your insanity is draining away. You're forced to do something about this."
  yoggsaron_whisper.opt1: "Travel to Ulduar and unearth the evil lurking there."
  yoggsaron_whisper.opt2: "Whispers are never a good omen. Ignore it!"
+ nzoth_whisper.title: "An otherworldy voice is calling."
+ nzoth_whisper.desc: "Since communed with N'zoth, you're hearing whispers from a omniscent being beneath the tides. Recently, whispers gone louder and many poeple among your lands feel its presence as well. Maybe It is time for a bargain..."
+ nzoth_whisper.opt1: "Swear allegiance to N'zoth and start worshipping Old Gods."
+ nzoth_whisper.opt2: "Ignore it and hope Its sway grows weaker in this world."
  #-----------------------------------------------
  # Rise of the Horde
  #-----------------------------------------------

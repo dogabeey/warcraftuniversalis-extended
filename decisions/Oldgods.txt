@@ -157,14 +157,14 @@ country_decisions = {
 		effect = {
 			add_adm_power = -100
 			random_list = {
-				95 = {
+				1 = {
 					add_country_modifier = { 
 						name = communed_tidemother 
 						duration = 365
 						hidden = no
 					}
 				}
-				5 = {
+				99 = {
 					set_country_flag = influenced_by_nzoth
 				}
 			}
