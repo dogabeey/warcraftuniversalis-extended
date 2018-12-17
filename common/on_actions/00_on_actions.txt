@@ -5,11 +5,6 @@ on_startup = {
         setup.1 # Global
         setup.2 # Country specific
     }
-	if = { limit = { tag = P11 } add_country_modifier = { 
-					name = lich_kings_crown
-					duration = -1
-					hidden = no
-				}
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_startup" }
 }
 
