@@ -45,7 +45,12 @@
  
  commune_with_tidemother_title: "Commune with Tidemother"
  commune_with_tidemother_desc: "Attempt to commune with tidemother. But beware: You never know what to find... Or what finds you."
- 
+  
+ #-----------------------------------------------
+ # Scourge
+ #-----------------------------------------------
+ claim_throne_title: "Claim The Lich King's Crown"
+ claim_throne_desc: "Claim The Lich King's Crown by sacrificing your ruler and gain control of The Scourge around the globe."
  #-----------------------------------------------
  # Human
  #-----------------------------------------------

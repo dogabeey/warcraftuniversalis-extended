@@ -166,6 +166,10 @@ country_event = {
 	desc = nzoth_communed.desc
 	picture = DIPLOMACY_eventPicture
     
+	trigger = {
+		has_country_flag = nzoth_communed
+	}
+	
 	hidden = no
 	is_triggered_only = yes
 	
