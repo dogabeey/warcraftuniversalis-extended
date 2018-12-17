@@ -11,17 +11,17 @@ country_decisions = {
 		
 		allow = {
             stability = 3
-            adm_power = 750
-            dip_power = 750
-            mil_power = 750	
+            adm_power = 500
+            dip_power = 500
+            mil_power = 500
 		}
 		
 		effect = {
 			set_country_flag = awakening_cthun
 			add_stability = -3
-            add_adm_power = -750
-            add_dip_power = -750
-            add_mil_power = -750
+            add_adm_power = -500
+            add_dip_power = -500
+            add_mil_power = -500
 			
 			every_country = { 
 				limit = {
