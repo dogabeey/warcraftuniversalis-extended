@@ -23,6 +23,9 @@
  summoned_oldgod: "Summoned an Old God!"
  summoned_oldgod.desc: "Temple of Ahn'Qiraj is razed"
  
+ lich_kings_crown: "The lich King's Crown"
+ lich_kings_crown: "someone else occupies Icecrown Citadel"
+ 
  # Civilized
  ruler_education_adm_1_civilized: "Architecture"
  desc_ruler_education_adm_1_civilized: "Our ruler favoured the administrative lessons about architecture."
