@@ -5,10 +5,9 @@ country_event = { id = war_dynamism.100 }
 country_event = { id = war_dynamism.101 }
 country_event = { id = WARCRAFT_TIRISFAL.1 }
 country_event = { id = awakening_ritual_yoggsaron }
-country_event = { id = awakening_ritual_yoggsaron_notify }
 country_event = { id = nzoth_communed }
+country_event = { id = nzoth_whisper }
 country_event = { id = awakening_ritual_cthun }
-country_event = { id = awakening_ritual_cthun_notify }
 country_event = { id = yoggsaron_whisper }
 country_event = { id = story.1 }
 country_event = { id = story.2 }

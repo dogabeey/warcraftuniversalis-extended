@@ -22,6 +22,7 @@ country_decisions = {
 		}
 		
 		effect = {
+			exile_ruler_as = lich_king
 			every_country = {
 				limit = {
 					has_country_modifier = lich_kings_crown
@@ -41,7 +42,9 @@ country_decisions = {
 					create_march = PREV
 				}
 			}
-			kill_ruler = yes
+			P11 = {
+				set_ruler = lich_king
+			}
 		}
 		
 		ai_will_do = {

@@ -11,6 +11,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = awakening_cthun
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	mean_time_to_happen = {
@@ -31,22 +32,6 @@ country_event = {
 }
 
 country_event = {
-	id = awakening_ritual_cthun_notify
-	title = awakening_ritual_cthun_notify.title
-	desc = awakening_ritual_cthun_notify.desc
-	picture = DIPLOMACY_eventPicture
-    
-	hidden = no
-    fire_only_once = no
-    
-	is_triggered_only = yes
-	
-	option = {
-        name = awakening_ritual_cthun_notify.opt1
-	}
-}
-
-country_event = {
 	id = yoggsaron_whisper
 	title = yoggsaron_whisper.title
 	desc = yoggsaron_whisper.desc
@@ -57,6 +42,8 @@ country_event = {
     
 	trigger = {
 		owns_core_province = 2495
+		NOT = { has_country_flag = guided_by_whispers }
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	mean_time_to_happen = {
@@ -82,6 +69,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = awakening_yoggsaron
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	mean_time_to_happen = {
@@ -102,21 +90,6 @@ country_event = {
 }
 
 country_event = {
-	id = awakening_ritual_yoggsaron_notify
-	title = awakening_ritual_yoggsaron_notify.title
-	desc = awakening_ritual_yoggsaron_notify.desc
-	picture = DIPLOMACY_eventPicture
-    
-	hidden = no
-    fire_only_once = no
-    
-	is_triggered_only = yes
-	
-	option = {
-        name = awakening_ritual_yoggsaron_notify.opt1
-	}
-}
-country_event = {
 	id = nzoth_whisper
 	title = nzoth_whisper.title
 	desc = nzoth_whisper.desc
@@ -127,6 +100,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = influenced_by_nzoth
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	mean_time_to_happen = {
@@ -168,6 +142,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = nzoth_communed
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	hidden = no
