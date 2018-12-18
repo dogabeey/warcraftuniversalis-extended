@@ -11,12 +11,12 @@ Legion Invasion for Fel religions & more.
 
 * Decisions to summon Old Gods for certain countries when certain conditions met, and Decisions for "good" countries to kill them. Curently all Old Gods except Y'shaarj are summonable.
 
+* Countries who owns The Icecrown Citadel can wear Lich King's Crown to control The Scourge.
+
 ## Planned Features
 
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
-
-* Countries who owns The Icecrown Citadel can wear Lich King's Crown to control The Scourge.
 
 * Adventurer "Raids" against certain zones.
 
