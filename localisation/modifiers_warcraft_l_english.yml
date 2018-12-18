@@ -24,7 +24,10 @@
  summoned_oldgod.desc: "Temple of Ahn'Qiraj is razed"
  
  lich_kings_crown: "The Lich King's Crown"
- lich_kings_crown: "someone else occupies Icecrown Citadel"
+ lich_kings_crown.desc: "someone else occupies Icecrown Citadel"
+ 
+ adventurers_allowed: "right to form raids against the evil"
+ adventurers_allowed.desc: "a second order"
  
  # Civilized
  ruler_education_adm_1_civilized: "Architecture"

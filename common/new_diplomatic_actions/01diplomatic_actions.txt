@@ -1,0 +1,38 @@
+form_raid = {
+	category = influence
+	
+	alert_index = 40
+	alert_tooltip = form_raid.tooltip
+	
+	require_acceptance = no
+	
+	is_visible = {
+		NOT = { 
+			OR = {
+				religion_group = religion_group_old_god
+				religion_group = religion_group_disorder
+			}
+		}
+	}
+	is_allowed = {
+		prestige = 15
+		has_country_modifier = adventurers_allowed
+		FROM = {
+			has_country_modifier = summoned_oldgod
+		}
+	}
+	on_accept = {
+		add_treasury = -1000
+		FROM = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 20
+					leader = "Raid leader Erodion Dawnreach"
+				}
+		}
+	}
+	
+	ai_will_do = { 
+	
+	}
+}

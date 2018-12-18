@@ -10,6 +10,12 @@ summoned_oldgod = {
 	missionaries = 2
 }
 
+adventurers_allowed = {
+    yearly_corruption = 0.01
+	discipline = - 0.1
+	manpower_recovery_speed = 0.1
+}
+
 national_bank_interest = {
 	interest = -1
 }

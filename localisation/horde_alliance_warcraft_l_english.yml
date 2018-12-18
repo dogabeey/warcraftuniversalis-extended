@@ -125,10 +125,10 @@
  alliance_enemy: "Enemy of the Alliance"
  horde_enemy: "Enemy of the Horde"
  
- disguise_as_adminstration: "Disguise as Adminstration"
- disguise_as_adminstration_title: "Disguise as Adminstration"
- disguise_as_adminstration_desc: "Attempt to disguise as target country's diplomats using one of your dragonkin leaders. This has a chance to destabilize target country, cause unrest or even kill their monarch."
- disguise_as_adminstration_tooltip: "Disguise as one of target country's diplomats."
- disguise_as_adminstration_alert_tooltip: "Disguise as one of target country's diplomats."
+ form_raid: "Form a Raid"
+ form_raid_title: "Form a Raid"
+ form_raid_desc: "Form a raid in target country and send them as rebels. This will not be considered wrong as It's an act against evil. You will NOT declare war, yet they will gain a casus belli against you."
+ form_raid_tooltip: "Form a raid in target country and send them as rebels. This will not be considered wrong as It's an act against evil. You will NOT declare war, yet they will gain a casus belli against you."
+ form_raid_alert_tooltip: "Form a raid in target country and send them as rebels. This will not be considered wrong as It's an act against evil. You will NOT declare war, yet they will gain a casus belli against you."
  
  

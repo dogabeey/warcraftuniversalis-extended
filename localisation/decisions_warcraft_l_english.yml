@@ -21,6 +21,11 @@
  decision_form_westfall_desc: "Form the town of Westfall."
  
  #-----------------------------------------------
+ # Guilds
+ #-----------------------------------------------
+ allow_adventurers_title: "Allow Adventurer Guilds"
+ allow_adventurers_desc: "Allow forming of independant adventure guilds in country. This will allow us to form adventurer raids against evil countries under diplomatic actions.
+ #-----------------------------------------------
  # Old Gods
  #-----------------------------------------------
  awaken_cthun_title: "Awaken C'thun"

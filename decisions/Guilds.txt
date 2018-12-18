@@ -1,0 +1,41 @@
+country_decisions = {
+	allow_adventurers = {
+		major = yes
+		
+		potential = {
+			any_country
+			{
+				limit = {
+					OR = {
+						has_country_modifier = summoned_oldgod
+						has_country_modifier = lich_kings_crown
+					}
+				}
+			}
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = adventurers_allowed }
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = adventurers_allowed
+				duration = 360
+				hidden = no
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+# Command line
+
+#-#
+# This is a command folding.
+#
+#
+#-#
