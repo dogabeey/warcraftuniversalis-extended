@@ -27,7 +27,6 @@ form_raid = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 20
-					leader = "Raid leader Erodion Dawnreach"
 				}
 		}
 	}
