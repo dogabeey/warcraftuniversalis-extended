@@ -1,5 +1,7 @@
+namespace = old_gods
+
 country_event = {
-	id = awakening_ritual_cthun
+	id = old_gods.1
 	title = awakening_ritual_cthun.title
 	desc = awakening_ritual_cthun.desc
 	picture = DIPLOMACY_eventPicture
@@ -30,7 +32,7 @@ country_event = {
 }
 
 country_event = {
-	id = yoggsaron_whisper
+	id = old_gods.2
 	title = yoggsaron_whisper.title
 	desc = yoggsaron_whisper.desc
 	picture = DIPLOMACY_eventPicture
@@ -60,7 +62,7 @@ country_event = {
 }
 
 country_event = {
-	id = awakening_ritual_yoggsaron
+	id = old_gods.3
 	title = awakening_ritual_yoggsaron.title
 	desc = awakening_ritual_yoggsaron.desc
 	picture = DIPLOMACY_eventPicture
@@ -91,7 +93,7 @@ country_event = {
 }
 
 country_event = {
-	id = nzoth_whisper
+	id = old_gods.4
 	title = nzoth_whisper.title
 	desc = nzoth_whisper.desc
 	picture = DIPLOMACY_eventPicture
@@ -137,7 +139,7 @@ country_event = {
 }
 
 country_event = {
-	id = nzoth_communed
+	id = old_gods.5
 	title = nzoth_communed.title
 	desc = nzoth_communed.desc
 	picture = DIPLOMACY_eventPicture
