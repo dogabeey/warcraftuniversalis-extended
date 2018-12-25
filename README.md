@@ -13,12 +13,13 @@ Legion Invasion for Fel religions & more.
 
 * Countries who owns The Icecrown Citadel can wear Lich King's Crown to control The Scourge.
 
+* Adventurer "Raids": A new type of Rebel supporting actions against the evil countries.
+
 ## Planned Features
 
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
 
-* Adventurer "Raids" against certain zones.
 
 * Incarnations of Sha may appear in Pandaria in certain occasions.
 
