@@ -141,3 +141,18 @@ fear_of_stromkar = {
     
     land_morale = 0.2
 }
+
+is_evil = {
+    potential = {
+    }
+    
+	trigger = {
+		OR = {
+			has_country_modifier = summoned_oldgod
+			has_country_modifier = lich_kings_crown
+		}
+	}
+    
+     	global_unrest = 1
+		 yearly_corruption = 0.1
+}

@@ -25,14 +25,18 @@ country_decisions = {
 			
 			every_country = { 
 				limit = {
-					stability = 1
 					government_rank = 2
 					NOT = { 
 						religion_group = religion_group_old_god
 						religion_group = religion_group_void
+						has_country_modifier = is_evil
 					}
 				}
-				declare_war = ROOT
+				add_casus_belli = {
+					target = ROOT
+					type = cb_conquest
+					months = 24
+				}
 			}
 		}
 		
