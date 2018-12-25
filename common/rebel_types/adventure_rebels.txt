@@ -1,0 +1,74 @@
+#------------------------------------
+# Adventure Rebels
+#------------------------------------
+
+adventure_rebels = {
+
+	color = { 97 139 206  }
+
+	area = nation_religion
+	government = anti
+	religion = religion_elune
+	defection = none
+	independence = none
+	defect_delay = 60
+	unit_transfer = yes
+	gfx_type = culture_province
+	will_relocate = yes	
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	artillery = 0
+	infantry = 0.5
+	cavalry = 0.3
+	
+	morale = 1.0
+
+	# Possible handle actions
+	handle_action_negotiate = no
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes		
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+        # Decrease so nationalists have priority when lots of conquering has occured
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 0.1
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+		NOT = { is_capital = yes }
+ 	}
+	siege_won_effect = {
+    add_local_autonomy = 20
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
+		religion_group = religion_group_order
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	# Localisation for their demands
+	demands_description = "adventurer_demand"
+	
+	# Country Scope	
+	demands_enforced_effect = {
+		# Kill Old God if exists.
+		# Destroy The Lich King's Crown.
+		# Add another scope when a new evil stuff added.
+	}
+}

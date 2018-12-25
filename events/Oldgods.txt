@@ -43,7 +43,7 @@ country_event = {
 	trigger = {
 		owns_core_province = 2495
 		NOT = { has_country_flag = guided_by_whispers }
-		has_global_flag = this_event_will_never_fire
+		#has_global_flag = this_event_will_never_fire
 	}
 	
 	mean_time_to_happen = {

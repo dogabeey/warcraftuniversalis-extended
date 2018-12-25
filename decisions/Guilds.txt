@@ -11,6 +11,7 @@ country_decisions = {
 							has_country_modifier = summoned_oldgod
 							has_country_modifier = lich_kings_crown
 						}
+						# Put is_evil effect here to not having to change every single similiar scope.
 					}
 				}
 			}

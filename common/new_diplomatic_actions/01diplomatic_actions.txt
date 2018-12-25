@@ -9,8 +9,8 @@ form_raid = {
 	is_visible = {
 		NOT = { 
 			OR = {
-				religion_group = religion_group_old_god
-				religion_group = religion_group_disorder
+				religion_group = old_god
+				religion_group = disorder
 			}
 		}
 	}
@@ -25,7 +25,7 @@ form_raid = {
 		add_treasury = -1000
 		FROM = {
 				spawn_rebels = {
-					type = pretender_rebels
+					type = adventure_rebels
 					size = 20
 				}
 		}
