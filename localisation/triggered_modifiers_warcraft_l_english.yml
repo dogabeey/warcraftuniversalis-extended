@@ -52,3 +52,6 @@
  
  occupation_of_the_blasted_lands: "Occupation of the Blasted Lands"
  desc_occupation_of_the_blasted_lands: "With little resistance in this region, we can create new settlements easily, and without resistance."
+ 
+ is_evil: "Evil"
+ desc_is_evil: "Evil countries perform malicious actions which potentially can bring destruction to all Azeroth. Other countries will eventually try to stop them."
