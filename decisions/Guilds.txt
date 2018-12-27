@@ -31,6 +31,34 @@ country_decisions = {
 	}
 }
 
+country_decisions = {
+	create_rebels_test = {
+		major = yes
+		
+		potential = {
+			has_global_flag = never_run_this
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			capital_scope = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 1
+					friend = ROOT
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
 # Command line
 
 #-#

@@ -15,23 +15,24 @@ form_raid = {
 		}
 	}
 	is_allowed = {
-		prestige = 15
+		prestige = 50
+		mil_power = 100
 		has_country_modifier = adventurers_allowed
-		FROM = {
-			has_country_modifier = summoned_oldgod
-		}
 	}
 	on_accept = {
-		add_treasury = -1000
+		add_mil_power = -100
 		FROM = {
+			capital_scope = {
 				spawn_rebels = {
 					type = adventure_rebels
-					size = 20
+					size = 2
+					friend = ROOT
 				}
+			}
 		}
 	}
 	
 	ai_will_do = { 
-	
+		factor = 0
 	}
 }
