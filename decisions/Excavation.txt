@@ -1,0 +1,24 @@
+country_decisions = {
+    start_archeological_project = {
+        potential = {
+			has_archaeologists = yes
+        }
+        allow = {
+			adm_power = 30
+			treasury = 100
+        }
+        effect = {
+			add_adm_power = -30
+			treasury = -100
+			random_owned_province = {
+				limit = {
+					NOT = { devastation = 10 }
+				}
+				add_devastation = 10
+			}
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

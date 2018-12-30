@@ -1,0 +1,18 @@
+apocalypse = {
+	hostile_attrition = 2
+	war_exhaustion = -0.2
+	yearly_corruption = -0.1
+}
+
+twinblades_of_deceiver = {
+	leader_land_fire = 2
+	yearly_corruption = -0.05
+}
+
+schyte_of_elune = {
+	land_attrition = -1
+}
+
+thasdorah = {
+	leader_land_manuever = 2
+}

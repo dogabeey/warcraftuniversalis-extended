@@ -435,3 +435,13 @@ consort_has_bad_mil_personality = {
 	#}
 }
 
+has_archaeologists = {
+	OR = {
+		accepted_culture = culture_high_elf
+		accepted_culture = culture_blood_elf
+		accepted_culture = culture_goblin_elf
+		accepted_culture = culture_dwarf_elf
+		technology_group = tech_thalassian
+		technology_group = tech_dwarven
+	}
+}
