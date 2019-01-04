@@ -3,17 +3,17 @@ country_decisions = {
 		major = yes
 		
 		potential = {
+			NOT = { has_country_modifier = lich_kings_crown }
+		}
+		
+		allow = 
+		{
 			any_country = {
 				limit = {
 					has_country_modifier = lich_kings_crown
 				}
 				war_with = ROOT
 			}
-			NOT = { has_country_modifier = lich_kings_crown }
-		}
-		
-		allow = 
-		{
 			1268 = {
 				has_ruler_leader_from = ROOT
 				controlled_by = ROOT

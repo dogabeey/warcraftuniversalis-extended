@@ -29,6 +29,8 @@
  adventurers_allowed: "Right to form raids against the evil"
  adventurers_allowed.desc: ""
  
+ communed_tidemother: "Has fervor of Tidemother"
+ 
  # Artifacts
  
  apocalypse: "Has Apocalypse"

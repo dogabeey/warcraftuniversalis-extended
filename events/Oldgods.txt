@@ -2,8 +2,8 @@ namespace = old_gods
 
 country_event = {
 	id = old_gods.1
-	title = awakening_ritual_cthun.title
-	desc = awakening_ritual_cthun.desc
+	title = old_gods.1.title
+	desc = old_gods.1.desc
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
@@ -19,7 +19,7 @@ country_event = {
 	}
 	
 	option = {
-        name = awakening_ritual_cthun.opt1
+        name = old_gods.1.opt1
 		set_global_flag = cthun_alive
 		add_country_modifier = { 
 			name = summoned_oldgod
@@ -33,8 +33,8 @@ country_event = {
 
 country_event = {
 	id = old_gods.2
-	title = yoggsaron_whisper.title
-	desc = yoggsaron_whisper.desc
+	title = old_gods.2.title
+	desc = old_gods.2.desc
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
@@ -51,20 +51,20 @@ country_event = {
 	}
 	
 	option = {
-        name = yoggsaron_whisper.opt1
+        name = old_gods.2.opt1
 		set_country_flag = guided_by_whispers
 		add_adm_power  = 30
 	}
 	option = {
-        name = yoggsaron_whisper.opt2
+        name = old_gods.2.opt2
 		add_adm_power = -30
 	}
 }
 
 country_event = {
 	id = old_gods.3
-	title = awakening_ritual_yoggsaron.title
-	desc = awakening_ritual_yoggsaron.desc
+	title = old_gods.3.title
+	desc = old_gods.3.desc
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
@@ -80,7 +80,7 @@ country_event = {
 	}
 	
 	option = {
-        name = awakening_ritual_yoggsaron.opt1
+        name = old_gods.3.opt1
 		set_global_flag = yoggsaron_alive
 		add_country_modifier = { 
 			name = summoned_oldgod
@@ -94,8 +94,8 @@ country_event = {
 
 country_event = {
 	id = old_gods.4
-	title = nzoth_whisper.title
-	desc = nzoth_whisper.desc
+	title = old_gods.4.title
+	desc = old_gods.4.desc
 	picture = DIPLOMACY_eventPicture
     
 	hidden = no
@@ -111,26 +111,32 @@ country_event = {
 	}
 	
 	option = {
-        name = nzoth_whisper.opt1
+        name = old_gods.4.opt1
 		change_religion = religion_old_gods
 	}
 	option = {
-        name = nzoth_whisper.opt2
+        name = old_gods.4.opt2
 		random_list = {
-			40 = {
+			5 = {
 				add_stability = -1
 			}
-			50 = {
+			5 = {
 				random_province =
 				{
+					limit = {
+						owned_by = ROOT
+					}
 					change_religion = religion_old_gods
 				}
 				random_province =
 				{
+					limit = {
+						owned_by = ROOT
+					}
 					change_religion = religion_old_gods
 				}
 			}
-			10 = {
+			1 = {
 				clr_country_flag = influenced_by_nzoth
 				custom_tooltip = influenced_by_nzoth_clear
 			}
@@ -140,12 +146,11 @@ country_event = {
 
 country_event = {
 	id = old_gods.5
-	title = nzoth_communed.title
-	desc = nzoth_communed.desc
+	title = old_gods.5.title
+	desc = old_gods.5.desc
 	picture = DIPLOMACY_eventPicture
     
 	trigger = {
-		has_country_flag = nzoth_communed
 		#has_global_flag = this_event_will_never_fire
 	}
 	
@@ -153,6 +158,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-        name = nzoth_communed.opt1
+        name = old_gods.5.opt1
 	}
 }
