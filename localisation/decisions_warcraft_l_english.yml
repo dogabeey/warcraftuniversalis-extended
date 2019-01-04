@@ -24,7 +24,12 @@
  # Guilds
  #-----------------------------------------------
  allow_adventurers_title: "Allow Adventurer Guilds"
- allow_adventurers_desc: "Allow forming of independant adventure guilds in country. This will allow us to form adventurer raids against evil countries under diplomatic actions.
+ allow_adventurers_desc: "Allow forming of independant adventure guilds in country. This will allow us to form adventurer raids against evil countries under diplomatic actions."
+ #-----------------------------------------------
+ # Artifacts
+ #-----------------------------------------------
+ start_archeological_project_title: "Start an Archaeological Project"
+ start_archeological_project_desc: "Azeroth is full of hidden artifacts that is lost through its history. Look for those artifact by starting an excavation and claim their power for your own. Beware as not everything beneath is meant to be unearthed!"
  #-----------------------------------------------
  # Old Gods
  #-----------------------------------------------
