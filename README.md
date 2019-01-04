@@ -15,11 +15,12 @@ Legion Invasion for Fel religions & more.
 
 * Adventurer "Raids": A new type of Rebel supporting actions against the evil countries.
 
+* Excavation decision for certain countries which lets you find Artifacts of great power.
+
 ## Planned Features
 
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
-
 
 * Incarnations of Sha may appear in Pandaria in certain occasions.
 

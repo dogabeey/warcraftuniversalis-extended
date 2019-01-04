@@ -4,11 +4,11 @@ capital_scope = { province_event = { id = war_dynamism.3 } }
 country_event = { id = war_dynamism.100 }
 country_event = { id = war_dynamism.101 }
 country_event = { id = WARCRAFT_TIRISFAL.1 }
-country_event = { id = awakening_ritual_yoggsaron }
-country_event = { id = nzoth_communed }
-country_event = { id = nzoth_whisper }
-country_event = { id = awakening_ritual_cthun }
-country_event = { id = yoggsaron_whisper }
+country_event = { id = old_gods.1 }
+country_event = { id = old_gods.2 }
+country_event = { id = old_gods.3 }
+country_event = { id = old_gods.4 }
+country_event = { id = old_gods.5 }
 country_event = { id = story.1 }
 country_event = { id = story.2 }
 country_event = { id = story.3 }

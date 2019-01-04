@@ -1,6 +1,7 @@
 country_decisions = {
     start_archeological_project = {
         potential = {
+			ROOT = { has_archaeologists = yes }
 			NOT = { OR = {
 				has_country_modifier = apocalypse
 				has_country_modifier = twinblades_of_deceiver
@@ -17,7 +18,6 @@ country_decisions = {
 			} }
         }
         allow = {
-			has_archaeologists = yes
 			if = {
 				limit = {
 					has_country_modifier = archaeology_fragment
