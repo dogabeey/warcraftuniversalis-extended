@@ -3,6 +3,7 @@ country_decisions = {
 		major = yes
 		
 		potential = {
+			has_global_flag = lich_king_awakened
 			NOT = { has_country_modifier = lich_kings_crown }
 		}
 		
@@ -44,36 +45,6 @@ country_decisions = {
 			}
 			P11 = {
 				set_ruler = lich_king
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-}
-country_decisions = {
-	awaken_lich_king = {
-		major = yes
-		
-		potential = {
-			NOT = { has_global_flag = lich_king_awakened }
-			tag = P11
-		}
-		
-		allow = 
-		{
-			1268 = {
-				controlled_by = ROOT
-			}
-		}
-		
-		effect = {
-			set_global_flag = lich_king_awakened
-			add_country_modifier = { 
-				name = lich_kings_crown
-				duration = -1
-				hidden = no
 			}
 		}
 		
