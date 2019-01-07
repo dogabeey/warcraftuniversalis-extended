@@ -3,11 +3,46 @@
  # Sha
  #-----------------------------------------------
  doubt.title: "Sha of Doubt rises in [Root.GetName]"
- doubt.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, a war not going well caused mass-scale despair amongst your people. As a result, an incarnation of Despair rose in [Root.GetName]."
+ doubt.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, a war not going well caused mass-scale doubt amongst your people. As a result, an incarnation of doubt rose in [Root.GetName]."
  doubt.opt1: "Get help from Shado-pan"
  doubt.opt2: "Get help from the adventurers"
  doubt.opt3: "Mothball all residences in the area to stop spreading of Sha"
  doubt.opt4: "I will deal The Sha myself"
+ 
+ despair.title: "Sha of despair rises in [Root.GetName]"
+ despair.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, high devastation caused mass-scale despair amongst your people. As a result, an incarnation of Despair rose in [Root.GetName]."
+ despair.opt1: "Get help from Shado-pan"
+ despair.opt2: "Get help from the adventurers"
+ despair.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ despair.opt4: "I will deal The Sha myself"
+ 
+ fear.title: "Sha of fear rises in [Root.GetName]"
+ fear.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, an evil looming near caused mass-scale fear amongst your people. As a result, an incarnation of fear rose in [Root.GetName]."
+ fear.opt1: "Get help from Shado-pan"
+ fear.opt2: "Get help from the adventurers"
+ fear.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ fear.opt4: "I will deal The Sha myself"
+ 
+ hatred.title: "Sha of hatred rises in [Root.GetName]"
+ hatred.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, a hostile neighbor country caused mass-scale hatred amongst your people. As a result, an incarnation of hatred rose in [Root.GetName]."
+ hatred.opt1: "Get help from Shado-pan"
+ hatred.opt2: "Get help from the adventurers"
+ hatred.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ hatred.opt4: "I will deal The Sha myself"
+ 
+ violence.title: "Sha of violence rises in [Root.GetName]"
+ violence.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, a war gone far too long caused mass-scale violence amongst your people. As a result, an incarnation of violence rose in [Root.GetName]."
+ violence.opt1: "Get help from Shado-pan"
+ violence.opt2: "Get help from the adventurers"
+ violence.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ violence.opt4: "I will deal The Sha myself"
+ 
+ anger.title: "Sha of anger rises in [Root.GetName]"
+ anger.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, high national unrest caused mass-scale anger amongst your people. As a result, an incarnation of anger rose in [Root.GetName]."
+ anger.opt1: "Get help from Shado-pan"
+ anger.opt2: "Get help from the adventurers"
+ anger.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ anger.opt4: "I will deal The Sha myself"
  #-----------------------------------------------
  # Old Gods
  #-----------------------------------------------
