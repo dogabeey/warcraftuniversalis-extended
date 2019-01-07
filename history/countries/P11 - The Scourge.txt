@@ -11,6 +11,11 @@ add_country_modifier = {
     name = kings_grasp
     duration = -1
 }
+add_country_modifier = { 
+	name = lich_kings_crown
+	duration = -1
+	hidden = no
+}
 
 605.1.1 = { 
 	monarch =

@@ -4,7 +4,7 @@ country_event = {
 	id = old_gods.1
 	title = old_gods.1.title
 	desc = old_gods.1.desc
-	picture = DIPLOMACY_eventPicture
+	picture = SHA_eventPicture
     
 	hidden = no
     fire_only_once = no
@@ -35,7 +35,7 @@ country_event = {
 	id = old_gods.2
 	title = old_gods.2.title
 	desc = old_gods.2.desc
-	picture = DIPLOMACY_eventPicture
+	picture = SHA_eventPicture
     
 	hidden = no
     fire_only_once = no
@@ -65,7 +65,7 @@ country_event = {
 	id = old_gods.3
 	title = old_gods.3.title
 	desc = old_gods.3.desc
-	picture = DIPLOMACY_eventPicture
+	picture = SHA_eventPicture
     
 	hidden = no
     fire_only_once = no
@@ -96,7 +96,7 @@ country_event = {
 	id = old_gods.4
 	title = old_gods.4.title
 	desc = old_gods.4.desc
-	picture = DIPLOMACY_eventPicture
+	picture = SHA_eventPicture
     
 	hidden = no
     fire_only_once = no
@@ -148,7 +148,7 @@ country_event = {
 	id = old_gods.5
 	title = old_gods.5.title
 	desc = old_gods.5.desc
-	picture = DIPLOMACY_eventPicture
+	picture = SHA_eventPicture
     
 	trigger = {
 		#has_global_flag = this_event_will_never_fire

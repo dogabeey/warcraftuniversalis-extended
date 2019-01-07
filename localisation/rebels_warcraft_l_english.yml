@@ -239,3 +239,10 @@
  titan_corrupt_rebels_army: "Corrupt Titanic Adherents"
  titan_corrupt_rebels_demand: "Convert to Corrupt Titanic"
  titan_corrupt_rebels_demand_desc: "They demand freedom to puruse their corrupt worship of the Titans"
+ 
+ sha_rebels_title: "Sha Forces"
+ sha_rebels_name: "Sha Forces"
+ sha_rebels_desc: "It's spreading all ovver the land to create chaos"
+ sha_rebels_army: "Incarnations of Sha"
+ sha_rebels_demand: "Total corruption of your lands"
+ sha_rebels_demand_desc: "It's spreading all ovver the land to create chaos"

@@ -35,9 +35,9 @@ country_decisions = {
 			treasury = -100
 			random_owned_province = {
 				limit = {
-					NOT = { devastation = 100 }
+					NOT = { devastation = 50 }
 				}
-				add_devastation = 100
+				add_devastation = 50
 			}
 			random_list = {
 				10 = { }

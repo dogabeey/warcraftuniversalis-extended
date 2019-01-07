@@ -1,5 +1,14 @@
 ﻿l_english:
  #-----------------------------------------------
+ # Sha
+ #-----------------------------------------------
+ doubt.title: "Sha of Doubt rises in [Root.GetName]"
+ doubt.desc: "Lands of Pandaria are not like the other continents. It lives, breathes and may react negative emotions violently. In this particular case, a war not going well caused mass-scale despair amongst your people. As a result, an incarnation of Despair rose in [Root.GetName]."
+ doubt.opt1: "Get help from Shado-pan"
+ doubt.opt2: "Get help from the adventurers"
+ doubt.opt3: "Mothball all residences in the area to stop spreading of Sha"
+ doubt.opt4: "I will deal The Sha myself"
+ #-----------------------------------------------
  # Old Gods
  #-----------------------------------------------
  old_gods.1.title: "C'thun Rises!"
