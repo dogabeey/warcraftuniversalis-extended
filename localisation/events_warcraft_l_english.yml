@@ -1,5 +1,14 @@
 ﻿l_english:
  #-----------------------------------------------
+ # The Shattering
+ #-----------------------------------------------
+ leader_dispute_disrespect.title: "Discontent in Horde"
+ leader_dispute_disrespect.desc: "As the world's races struggle for survival in the wake of the Cataclysm, general fear and discontent affected The Horde as well. As Warchief, you do your best to keep Horde together. Yet, you are also obligated to uphold Horde's honor at all costs.\n\nDuring one of the meetings regarding The Horde's future, [fellow_horde.GetName] dared to disrespect you and your honor values. To protect our honor and prestige, we must react accordingly."
+ leader_dispute_disrespect.opt1: "\"Watch your clever mouth, prick!\""
+ leader_dispute_disrespect.opt2: "\"Watch your clever mouth, bitch!\""
+ leader_dispute_disrespect.opt3: "Break royal connections"
+ leader_dispute_disrespect.opt4: "We'll let this aggression slide this time."
+ #-----------------------------------------------
  # Sha
  #-----------------------------------------------
  doubt.title: "Sha of Doubt rises in [Root.GetName]"

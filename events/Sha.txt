@@ -86,6 +86,9 @@ country_event = {
     fire_only_once = no
     
 	trigger = {
+		any_owned_province = {
+			continent = continent_pandaria
+		}
 		ROOT = {
 			NOT = { stability = 0 }
 		}
@@ -158,6 +161,9 @@ country_event = {
     fire_only_once = no
     
 	trigger = {
+		any_owned_province = {
+			continent = continent_pandaria
+		}
 		ROOT = {
 			war_exhaustion = 5
 		}
@@ -230,6 +236,9 @@ country_event = {
     fire_only_once = no
     
 	trigger = {
+		any_owned_province = {
+			continent = continent_pandaria
+		}
 		ROOT = {
 			any_neighbor_country = {
 				has_country_modifier = is_evil
@@ -304,6 +313,9 @@ country_event = {
     fire_only_once = no
     
 	trigger = {
+		any_owned_province = {
+			continent = continent_pandaria
+		}
 		any_neighbor_country = {
 			has_opinion = {
 				who = ROOT
@@ -379,6 +391,9 @@ country_event = {
     fire_only_once = no
     
 	trigger = {
+		any_owned_province = {
+			continent = continent_pandaria
+		}
 		OR = { 
 			average_unrest = 5
 			any_country = {
