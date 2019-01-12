@@ -25,6 +25,12 @@
  forsaken_valkyr_2.opt1: "Accept the gift"
  forsaken_valkyr_2.opt2: "\"I don't make deals with scourge fiends.\""
  forsaken_valkyr_2.opt2.tooltip: "[Root.Monarch.GetName] dies!"
+ 
+ forsaken_valkyr_3.title: "Power to Reanimate"
+ forsaken_valkyr_3.desc: "Our manpower supplies are dangerously low. But since now we have The Val'kyr on our side, we can reanimate the dead to resupply our manpower. This might look like an evil act to those who doesn't understand nature of undeath, yet we can't turn down this chance to use our new allies.\n\n... Where to find these dead bodies, is entirely up to us."
+ forsaken_valkyr_3.opt1: "Find and reanimate the soldiers that we lost in battles"
+ forsaken_valkyr_3.opt2: "Raid the tombs in occupied provinces"
+ forsaken_valkyr_3.opt3: "We cannot afford make our allies angry right now"
  #-----------------------------------------------
  # Sha
  #-----------------------------------------------

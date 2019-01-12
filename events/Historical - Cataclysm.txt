@@ -247,14 +247,36 @@ country_event = {
 	picture = ORC_THRONE_eventPicture
     
 	hidden = no
-    fire_only_once = yes
+    fire_only_once = no
 	is_triggered_only = yes
     
 	trigger = {
+		has_country_modifier = pact_with_valkyr
+		ROOT = {
+			NOT = {
+				manpower_percentage = 0.50
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
+		modifier = {
+			factor = 0.8
+			NOT = { manpower_percentage = 0.40 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { manpower_percentage = 0.30 }
+		}
+		modifier = {
+			factor = 0.4
+			NOT = { manpower_percentage = 0.20 }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { manpower_percentage = 0 }
+		}
 	}
 	
 	immediate = {
@@ -263,21 +285,73 @@ country_event = {
 	option = {
 		name = forsaken_valkyr_3.opt1
 		ai_chance = { 
-			factor = 96
+			factor = 33
 		}
-		add_country_modifier = { 
-			name = pact_with_valkyr
-			duration = -1
+		add_prestige = -5
+		add_yearly_manpower = 0.3
+		random_owned_province = {
+			add_unrest = 2
+			add_devastation = 2
+		}
+		every_ally = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_modifier = is_evil 
+						religion_group = religion_group_the_void
+						religion_group = religion_group_disorder
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = dishonorable_act
+			}
 		}
 	}
-	
 	option = {
 		name = forsaken_valkyr_3.opt2
 		ai_chance = { 
-			factor = 4
+			factor = 33
 		}
-		hidden_effect  = {
-			exile_ruler_as = dead_forsaken_ruler
+		every_province = {
+			limit = {
+				controlled_by = ROOT
+				NOT = { owned_by = ROOT }
+			}
+			add_devastation = 2
+			ROOT = {
+				add_yearly_manpower = 0.1
+				add_prestige = -1
+			}
+			owner = {
+				add_opinion = {
+					who = ROOT
+					modifier = dishonorable_act
+				}
+			}
 		}
+		every_ally = {
+			limit = {
+				NOT = {
+					OR = {
+						has_country_modifier = is_evil 
+						religion_group = religion_group_the_void
+						religion_group = religion_group_disorder
+					}
+				}
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = dishonorable_act
+			}
+		}
+	}
+	option = {
+		name = forsaken_valkyr_3.opt3
+		ai_chance = { 
+			factor = 33
+		}
+		add_prestige = 2
 	}
 }
