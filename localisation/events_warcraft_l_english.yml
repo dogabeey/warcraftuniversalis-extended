@@ -7,7 +7,12 @@
  leader_dispute_disrespect.opt1: "\"Watch your clever mouth, prick!\""
  leader_dispute_disrespect.opt2: "\"Watch your clever mouth, bitch!\""
  leader_dispute_disrespect.opt3: "Break royal connections"
- leader_dispute_disrespect.opt4: "We'll let this aggression slide this time."
+ leader_dispute_disrespect.opt4: "We'll let this aggression slide this time"
+ 
+ leader_dispute_makgora.title: "Duel of Honor"
+ leader_dispute_makgora.desc: "In result of rising dissent in The Horde, [fellow_horde.GetName.Monarch] challenged you a duel of honor. In Horde tradition, refusing a duel is most shameful act a ruler can commit. But there is also possibility of death."
+ leader_dispute_makgora.opt1: "Lok'Tar Ogar!"
+ leader_dispute_makgora.opt2: "I will not waste my time with you"
  #-----------------------------------------------
  # Sha
  #-----------------------------------------------
