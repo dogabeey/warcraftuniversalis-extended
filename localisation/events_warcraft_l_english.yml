@@ -10,9 +10,21 @@
  leader_dispute_disrespect.opt4: "We'll let this aggression slide this time"
  
  leader_dispute_makgora.title: "Duel of Honor"
- leader_dispute_makgora.desc: "In result of rising dissent in The Horde, [fellow_horde.GetName.Monarch] challenged you a duel of honor. In Horde tradition, refusing a duel is most shameful act a ruler can commit. But there is also possibility of death."
+ leader_dispute_makgora.desc: "In result of rising dissent in The Horde, [fellow_horde.Monarch.GetName] challenged you a duel of honor. In Horde tradition, refusing a duel is most shameful act a ruler can commit. But there is also possibility of death."
  leader_dispute_makgora.opt1: "Lok'Tar Ogar!"
  leader_dispute_makgora.opt2: "I will not waste my time with you"
+ 
+ forsaken_valkyr_1.title: "Life purpose fullfilled!"
+ forsaken_valkyr_1.desc: "Lich King has been replaced. Arthas is dead. Yet your body is still filled with hatred. Agony of your soul is getting more unbearable every day.\n\nYou have no purpose in this world and you know it. Something must be done. You're no longer a part of this world."
+ forsaken_valkyr_1.opt1: "Let yourself down off Icecrown Citadel"
+ forsaken_valkyr_1.opt2: "\"I can't. I still have people to lead.\""
+ forsaken_valkyr_1.opt1.tooltip: "[Root.Monarch.GetName] dies or..?!"
+ 
+ forsaken_valkyr_2.title: "In The Void!"
+ forsaken_valkyr_2.desc: "It's over.\n\nYou are dead. Death, despite what you expected, didn't bring peace, but more agony and pain.\n\nYet in endless ocean of void and horror, you heard a voice. Nine Val'kyr, unbound by The Lich King's grasp, approached you and offered a pact. They offer freedom, life… and power over death..."
+ forsaken_valkyr_2.opt1: "Accept the gift"
+ forsaken_valkyr_2.opt2: "\"I don't make deals with scourge fiends.\""
+ forsaken_valkyr_2.opt2.tooltip: "[Root.Monarch.GetName] dies!"
  #-----------------------------------------------
  # Sha
  #-----------------------------------------------
