@@ -20,7 +20,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	
 	immediate = {
@@ -95,7 +95,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	
 	immediate = {
@@ -170,7 +170,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	
 	immediate = {
@@ -240,6 +240,7 @@ country_event = {
 			continent = continent_pandaria
 		}
 		ROOT = {
+			NOT = { has_country_modifier = is_evil }
 			any_neighbor_country = {
 				has_country_modifier = is_evil
 			}
@@ -247,7 +248,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 48
 	}
 	
 	immediate = {
@@ -322,10 +323,11 @@ country_event = {
 				value = -100
 			}
 		}
+		has_prestige = 10
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 36
 	}
 	
 	immediate = {
@@ -408,7 +410,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	
 	immediate = {

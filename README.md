@@ -17,11 +17,13 @@ Legion Invasion for Fel religions & more.
 
 * Excavation decision for certain countries which lets you find Artifacts of great power.
 
+* Incarnations of Sha may appear in Pandaria in certain occasions.
+
 ## Planned Features
 
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
 
-* Incarnations of Sha may appear in Pandaria in certain occasions.
+* Cataclysm historical events and The Shattering disaster.
 
 * And more...

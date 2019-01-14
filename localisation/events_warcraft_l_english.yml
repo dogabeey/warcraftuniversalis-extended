@@ -36,7 +36,7 @@
  gilnean_migration.desc: "The Kingdom of Gilneas is no longer exists! The Gilnean lands being ravaged by her enemies and rampaging feral worgens.\n\n Since they are a member of Historical Alliance of Lordearon, it is only natural to help her citizens in need. But immigrants often bring their problem with them and It might be not wise to open our gates to them completely."
  gilnean_migration.opt1: "Welcome all Gilneans to [Root.GetName] and your court"
  gilnean_migration.opt2: "Let Gilnean immigrants in"
- gilnean_migration.opt3: "Build a great, great wall in your borders"
+ gilnean_migration.opt3: "No furries!"
  #-----------------------------------------------
  # Sha
  #-----------------------------------------------

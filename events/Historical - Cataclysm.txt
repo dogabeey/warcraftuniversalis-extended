@@ -266,15 +266,15 @@ country_event = {
 			NOT = { manpower_percentage = 0.40 }
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.8
 			NOT = { manpower_percentage = 0.30 }
 		}
 		modifier = {
-			factor = 0.4
+			factor = 0.8
 			NOT = { manpower_percentage = 0.20 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.8
 			NOT = { manpower_percentage = 0 }
 		}
 	}
@@ -377,7 +377,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gilnean_migration.opt3
+		name = gilnean_migration.opt1
 		# Welcome Gilneans to Stormwind and accept them to court.
 		define_advisor = {
 			type = commandant
@@ -405,7 +405,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gilnean_migration.opt3
+		name = gilnean_migration.opt2
 		add_accepted_culture = culture_gilnean
 		random_owned_province = {
 			change_culture = culture_gilnean
@@ -416,19 +416,5 @@ country_event = {
 	option = {
 		name = gilnean_migration.opt3
 		# Don't accept them in your country at all.
-		every_owned_province = {
-			random_neighbor_province = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				random_neighbor_province = {
-					limit = {
-						owned_by = ROOT
-					}
-					add_building = wow_fort_2
-					ROOT = { add_treasury = -250 }
-				}
-			}
-		}
 	}
 }
