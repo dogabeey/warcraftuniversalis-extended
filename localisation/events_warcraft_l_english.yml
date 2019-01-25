@@ -2,6 +2,9 @@
  #-----------------------------------------------
  # The Shattering
  #-----------------------------------------------
+ #-----------------------------------------------
+ # The Shattering
+ #-----------------------------------------------
  leader_dispute_disrespect.title: "Discontent in Horde"
  leader_dispute_disrespect.desc: "As the world's races struggle for survival in the wake of the Cataclysm, general fear and discontent affected The Horde as well. As Warchief, you do your best to keep Horde together. Yet, you are also obligated to uphold Horde's honor at all costs.\n\nDuring one of the meetings regarding The Horde's future, [fellow_horde.GetName] dared to disrespect you and your honor values. To protect our honor and prestige, we must react accordingly."
  leader_dispute_disrespect.opt1: "\"Watch your clever mouth, prick!\""
@@ -418,6 +421,17 @@
  gilneas.2.title: "Peasants Moving Behind the Wall"
  gilneas.2.desc: "Peasants from the lands outside the wall are asking to come in."
  gilneas.2.option.a: "Let them come."
+ scourge_invasion_of_gilneas.title: "Archmage's Offer"
+ scourge_invasion_of_gilneas.desc: "Archmage Arugal, a famed Gilnean wizard in our court, brings a chance of solution to Scourge invasion against our lands. He told us about a race called Worgen that he learned during his studies. He claims they would be a great help against the Scourge, but he also warned us about Worgen's ferocity."
+ scourge_invasion_of_gilneas.opt1: "\"We need any help we can use. Start the ritual!\""
+ scourge_invasion_of_gilneas.opt2: "\"This deal smells furry!\""
+ scourge_invasion_of_gilneas.opt1.tooltip: "An army of worgens will be summoned in [Root.Capital.GetName]."
+ worgen_unleashed.title: "The Curse Begins Spreading"
+ worgen_unleashed.desc: "The worgens created by Archmage Arugal gone feral and It turns out their bite is infectious. They're rampaging through the woods, infecting random civilians, turning them into worgen too! Neighboring countries have closed their borders to us to prevent it from spreading.\n\nThe Light help us all."
+ worgen_unleashed.opt1: "Oh no"
+ worgen_convert.title: "The Curse Claims All"
+ worgen_convert.desc: "The curse of worgen infected almost every single person in our country, including us. No one was able to get away from it. Our entire culture is converted into feral worgens.\n\nAlthough while disease is spreading, a group of herbalist found some sort of cure, not to curse itself, but its effect which render people feral. A medicine is quickly developed and distributed and at last, our country has free-will once more."
+ worgen_convert.opt1: "A new era for Gilneas begins"
  
  #Eastern Plaguelands
  WARCRAFT_EASTERNPLAGUELANDS.1.title: "Landing of Naxxramas"

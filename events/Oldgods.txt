@@ -47,7 +47,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 36
+		months = 24
 	}
 	
 	option = {
@@ -112,7 +112,13 @@ country_event = {
 	
 	option = {
         name = old_gods.4.opt1
-		change_religion = religion_old_gods
+		every_owned_province =
+		{
+			limit = {
+				NOT = { religion = religion_old_gods }
+			}
+			change_religion = religion_old_gods
+		}
 	}
 	option = {
         name = old_gods.4.opt2
@@ -143,7 +149,7 @@ country_event = {
 		}
 	}
 }
-
+## Uncomplete event
 country_event = {
 	id = old_gods.5
 	title = old_gods.5.title
@@ -152,6 +158,7 @@ country_event = {
     
 	trigger = {
 		#has_global_flag = this_event_will_never_fire
+		NOT = { has_country_modifier = summoned_oldgod }
 	}
 	
 	hidden = no
@@ -159,5 +166,13 @@ country_event = {
 	
 	option = {
         name = old_gods.5.opt1
+		
+	}
+	option = {
+        name = old_gods.5.opt2
+	}
+	option = {
+        name = old_gods.5.opt3
+		add_prestige = -5
 	}
 }

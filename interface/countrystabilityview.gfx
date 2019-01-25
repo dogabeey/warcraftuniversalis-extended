@@ -10,6 +10,13 @@ spriteTypes = {
 		texturefile = "gfx//interface//disasters//aspiration_for_liberty.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
+	}		
+	
+	spriteType = {
+	  name = "GFX_worgen_curse_disaster"
+	  texturefile = "gfx//interface//disasters//worgen_curse_disaster.dds"
+	  noOfFrames = 3
+	  loadType = "INGAME"
 	}
 	
 	spriteType = {
@@ -512,6 +519,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_states"
 		texturefile = "gfx/interface/icon_states.dds"
-	}		
-	
+	}
 }

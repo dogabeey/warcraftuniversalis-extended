@@ -40,3 +40,10 @@
 
  estate_minor_old_gods_disaster: "Independent Cultists"
  estate_minor_old_gods_disaster_desc: "The cultists of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+ 
+ #-----------------------------------
+ # Extension
+ #-----------------------------------
+ worgen_curse_disaster: "Worgens Have Gone Pandemic"
+ worgen_curse_disaster_desc: "The worgens created by Archmage Arugal gone feral and It turns out their bite is infectious. They're rampaging through the woods, infecting random civilians, turning them into worgen too! Neighboring countries have closed their borders to us to prevent it from spreading."
+ 
