@@ -5,11 +5,7 @@ country_decisions = {
 		potential = {
 			any_country
 			{
-				limit = {
-					NOT = {
-						has_country_modifier = is_evil
-					}
-				}
+				NOT = { has_country_modifier = is_evil }
 			}
 		}
 		

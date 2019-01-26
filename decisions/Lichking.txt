@@ -10,9 +10,7 @@ country_decisions = {
 		allow = 
 		{
 			any_country = {
-				limit = {
-					has_country_modifier = lich_kings_crown
-				}
+				has_country_modifier = lich_kings_crown
 				war_with = ROOT
 			}
 			1268 = {

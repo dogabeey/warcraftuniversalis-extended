@@ -33,6 +33,8 @@ form_raid = {
 	}
 	
 	ai_will_do = { 
-		factor = 0
+		prestige = 50
+		mil_power = 200
+		has_country_modifier = adventurers_allowed
 	}
 }

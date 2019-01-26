@@ -179,6 +179,7 @@ country_decisions = {
 					country_event = { 
 						id = old_gods.5
 					}
+				}
 			}
 		}
 		

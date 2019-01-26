@@ -444,7 +444,7 @@ has_archaeologists = {
 		technology_group = tech_thalassian
 		technology_group = tech_dwarven
 	}
-
+}
 has_artifact = {
 	OR = {
 		has_country_modifier = apocalypse

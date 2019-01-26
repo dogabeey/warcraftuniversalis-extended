@@ -2,6 +2,7 @@ worgen_curse_disaster = {
 	potential = {
 		current_age = the_third_war
 		primary_culture = culture_gilnean
+		has_global_flag = will_never_fire
 	}
 
 
@@ -14,7 +15,7 @@ worgen_curse_disaster = {
 	
 	progress = {
 		modifier = {
-				factor = 100
+				factor = 2
 				has_country_modifier = curse_of_the_worgen
 		}
 	}

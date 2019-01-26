@@ -221,7 +221,7 @@ country_event = {
 	option = {
 		name = forsaken_valkyr_2.opt1
 		ai_chance = { 
-			factor = 96
+			factor = 0.96
 		}
 		add_country_modifier = { 
 			name = pact_with_valkyr
@@ -232,7 +232,7 @@ country_event = {
 	option = {
 		name = forsaken_valkyr_2.opt2
 		ai_chance = { 
-			factor = 4
+			factor = 0.04
 		}
 		custom_tooltip = forsaken_valkyr_2.opt2.tooltip
 		hidden_effect  = {
@@ -350,7 +350,7 @@ country_event = {
 	option = {
 		name = forsaken_valkyr_3.opt3
 		ai_chance = { 
-			factor = 33
+			factor = 1
 		}
 		add_prestige = 2
 	}
