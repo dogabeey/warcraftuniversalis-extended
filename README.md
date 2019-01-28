@@ -19,11 +19,12 @@ Legion Invasion for Fel religions & more.
 
 * Incarnations of Sha may appear in Pandaria in certain occasions.
 
+* Cataclysm historical events.
+
 ## Planned Features
 
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
 
-* Cataclysm historical events and The Shattering disaster.
 
 * And more...
