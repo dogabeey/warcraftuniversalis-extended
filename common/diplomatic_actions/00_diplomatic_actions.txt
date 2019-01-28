@@ -2052,15 +2052,27 @@ form_coalition = {
 		potential = {	
 		}
 		allow = {
-			has_opinion_modifier = {
-				modifier = aggressive_expansion
-				who = FROM
-			}		
-			NOT = {
-				has_opinion_modifier = {
-					modifier = aggressive_expansion
-					who = FROM
-					value = -50
+			OR = {
+				AND = {
+					has_opinion_modifier = {
+						modifier = aggressive_expansion
+						who = FROM
+					}		
+					NOT = {
+						has_opinion_modifier = {
+							modifier = aggressive_expansion
+							who = FROM
+							value = -50
+						}
+					}
+				}
+				AND = {
+					ROOT = {
+						NOT = { has_country_modifier = is_evil }
+					}
+					FROM = {
+						has_country_modifier = is_evil
+					}
 				}
 			}
 		}
