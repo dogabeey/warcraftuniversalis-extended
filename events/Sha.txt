@@ -322,8 +322,8 @@ country_event = {
 				who = ROOT
 				value = -100
 			}
+			
 		}
-		has_prestige = 10
 	}
 	
 	mean_time_to_happen = {

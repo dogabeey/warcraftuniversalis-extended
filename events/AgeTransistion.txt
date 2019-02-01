@@ -1,0 +1,64 @@
+namespace = transistion
+
+country_event = {
+	id = transistion.1
+	title = firstwar_trigger.title
+	desc = firstwar_trigger.desc
+	picture = ORC_eventPicture
+    
+	hidden = yes
+    fire_only_once = yes
+    
+	trigger = {
+		A01 = {
+			is_in_war = {
+				casus_belli = cb_azeroth_assault
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = firstwar_trigger_set
+	}
+	
+	option = {
+		name = firstwar_trigger.opt1
+	}
+}
+
+country_event = {
+	id = transistion.2
+	title = firstwar_trigger.title
+	desc = firstwar_trigger.desc
+	picture = ORC_eventPicture
+    
+	hidden = yes
+    fire_only_once = yes
+    
+	trigger = {
+		A01 = {
+			NOT = {
+				is_in_war = {
+					casus_belli = cb_azeroth_assault
+				}
+			}
+			has_global_flag = firstwar_trigger_set 
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = the_second_war
+	}
+	
+	option = {
+		name = firstwar_trigger.opt1
+	}
+}
