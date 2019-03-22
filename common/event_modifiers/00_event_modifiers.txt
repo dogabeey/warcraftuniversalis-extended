@@ -3,16 +3,16 @@
 ##################################################################################################
 
 summoned_oldgod = {
-	raze_power_gain = 0.50
-	land_morale = 0.50
-	infantry_cost = -0.5
-	global_missionary_strength  = 0.50
+	raze_power_gain = 0.20
+	land_morale = 0.20
+	infantry_cost = -0.2
+	global_missionary_strength  = 0.20
 	missionaries = 2
 }
 
 adventurers_allowed = {
     yearly_corruption = 0.01
-	discipline = - 0.1
+	discipline = -0.1
 	manpower_recovery_speed = 0.1
 }
 

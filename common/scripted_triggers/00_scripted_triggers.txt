@@ -439,8 +439,12 @@ has_archaeologists = {
 	OR = {
 		accepted_culture = culture_high_elf
 		accepted_culture = culture_blood_elf
-		accepted_culture = culture_goblin
-		accepted_culture = culture_dwarf
+		accepted_culture = culture_kezani
+		accepted_culture = culture_bilgewater
+		accepted_culture = culture_steamwheedle
+		accepted_culture = culture_wildhammer
+		accepted_culture = culture_darkiron
+		accepted_culture = culture_ironforge
 		technology_group = tech_thalassian
 		technology_group = tech_dwarven
 	}

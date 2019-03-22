@@ -18,6 +18,9 @@ form_raid = {
 		prestige = 50
 		mil_power = 100
 		has_country_modifier = adventurers_allowed
+		FROM = {
+			has_country_modifier = is_evil
+		}
 	}
 	on_accept = {
 		add_mil_power = -100

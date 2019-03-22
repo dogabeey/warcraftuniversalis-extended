@@ -1,5 +1,5 @@
-name="Warcraft"
-archive="mod/warcraft_universalis.zip"
+name="Warcraft Universalis - Evil patch [1.22]"
+archive="mod/warcraft_universalis_evil.zip"
 replace_path="common/advisortypes"
 replace_path="common/ages"
 replace_path="common/bookmarks"
@@ -63,4 +63,5 @@ tags={
 	"Alternative History"
 }
 picture="photo.jpg"
+remote_file_id="713243950"
 supported_version="1.22.*.*"
