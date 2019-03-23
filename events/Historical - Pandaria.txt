@@ -1,0 +1,61 @@
+namespace = pandaria
+
+country_event = {
+	id = pandaria.1
+	title = heir_lost.title
+	desc = heir_lost.desc
+	picture = SHA_eventPicture
+    
+	hidden = no
+    fire_only_once = yes
+    
+	trigger = {
+		tag = A01
+		current_age = mists_of_pandaria
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	immediate = {
+		exile_heir_as = my_exiled_heir
+		set_country_flag = heir_lost
+	}
+	option = {
+		name = heir_lost.opt1
+		tooltip = {
+			exile_heir_as = my_exiled_heir
+		}
+		ROOT = {
+			country_event = { 
+				id = pandaria.2
+				days = 182
+			}
+		}
+	}
+}
+country_event = {
+	id = pandaria.2
+	title = heir_died.title
+	desc = heir_died.desc
+	picture = SHA_eventPicture
+    
+	hidden = no
+    fire_only_once = yes
+	is_triggered_only = yes
+    
+	trigger = {
+		has_country_flag = heir_lost
+	}
+	
+	immediate = {
+		clr_country_flag = heir_lost
+	}
+	
+	option = {
+		name = heir_died.opt1
+		add_prestige = -30
+		add_stability = -1
+	}
+}

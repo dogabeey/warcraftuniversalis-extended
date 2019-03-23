@@ -1,7 +1,13 @@
 ﻿l_english:
  #-----------------------------------------------
- # The Shattering
+ # Mists of Pandaria
  #-----------------------------------------------
+ heir_lost.title: "Our heir is lost in sea!"
+ heir_lost.desc: "During an ordinary voyage, the ship that is carrying our heir is struck by an Horde gunship and they both are lost in south seas. If alive, our heir is probably stranded in a new continent that is dicovered recently. We must travel to Pandaria, get contact with the locals and look for them as soon as possible. We suspect if we don't act quickly, It will be too late in six months.\n\nIF they arestill alive, of course..."
+ heir_lost.opt1: "\"Oh, no!\""
+ heir_died.title: "Our lost heir died!"
+ heir_died.desc: "This is a black day for [Root.GetName]. We are devestated to inform that due lack of effort on searching for our lost heir, their cold body is found in a ruined building. First investigation reports evince that they were savagely murdered using a sharp, heavy blade. If only we hastened our efforsts...\n\nThe Alliance mourns for our loss. Yet behind closed doors most of them blame you for their unfortunate death."
+ heir_died.opt1: "May his soul find peace in the light"
  #-----------------------------------------------
  # The Shattering
  #-----------------------------------------------
