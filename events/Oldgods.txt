@@ -123,10 +123,10 @@ country_event = {
 	option = {
         name = old_gods.4.opt2
 		random_list = {
-			5 = {
+			45 = {
 				add_stability = -1
 			}
-			5 = {
+			45 = {
 				random_province =
 				{
 					limit = {
@@ -142,7 +142,7 @@ country_event = {
 					change_religion = religion_old_gods
 				}
 			}
-			1 = {
+			10 = {
 				clr_country_flag = influenced_by_nzoth
 				custom_tooltip = influenced_by_nzoth_clear
 			}
@@ -166,13 +166,5 @@ country_event = {
 	
 	option = {
         name = old_gods.5.opt1
-		
-	}
-	option = {
-        name = old_gods.5.opt2
-	}
-	option = {
-        name = old_gods.5.opt3
-		add_prestige = -5
 	}
 }

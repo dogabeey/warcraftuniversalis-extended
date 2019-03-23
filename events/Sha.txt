@@ -15,7 +15,7 @@ country_event = {
 				continent = continent_pandaria
 			}
 			is_at_war = yes
-			NOT = { war_score = -5 }
+			NOT = { war_score = -15 }
 		}
 	}
 	
@@ -30,7 +30,7 @@ country_event = {
 				continent = continent_pandaria
 			}
 			spawn_rebels = {
-				size = 3
+				size = 2
 				leader = "Sha of Doubt"
 				type = sha_rebels
 			}
@@ -105,7 +105,7 @@ country_event = {
 				continent = continent_pandaria
 			}
 			spawn_rebels = {
-				size = 3
+				size = 2
 				leader = "Sha of Despair"
 				type = sha_rebels
 			}
@@ -165,7 +165,7 @@ country_event = {
 			continent = continent_pandaria
 		}
 		ROOT = {
-			war_exhaustion = 5
+			war_exhaustion = 6
 		}
 	}
 	
@@ -180,7 +180,7 @@ country_event = {
 				continent = continent_pandaria
 			}
 			spawn_rebels = {
-				size = 3
+				size = 2
 				leader = "Sha of Violence"
 				type = sha_rebels
 			}
@@ -258,7 +258,7 @@ country_event = {
 				continent = continent_pandaria
 			}
 			spawn_rebels = {
-				size = 3
+				size = 2
 				leader = "Sha of Fear"
 				type = sha_rebels
 			}
