@@ -8,11 +8,8 @@ country_decisions = {
 		}
 		
 		allow = {
-			any_province = {
-				continent = continent_pandaria
-				ROOT = {
-					num_of_units_in_province = { amount = 1 }
-				}
+			continent_pandaria = {
+				has_ruler_leader_from = ROOT
 			}
 		}
 		
