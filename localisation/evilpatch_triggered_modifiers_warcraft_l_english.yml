@@ -1,0 +1,6 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Triggered Modifiers
+ #-----------------------------------------------
+ is_evil: "Evil"
+ desc_is_evil: "Evil countries perform malicious actions which potentially can bring destruction to all Azeroth. Other countries will eventually try to stop them."
