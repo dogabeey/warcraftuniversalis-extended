@@ -1,0 +1,261 @@
+monarch_power = DIP
+
+ahead_of_time = {
+	trade_efficiency 		= 0.2
+}
+
+# 0
+technology = {
+	year = 545
+	
+    merchants = yes
+		
+	naval_morale			=	2.0
+	range					=	250
+	trade_range				=	250
+	global_colonial_growth	= 	25
+	
+	enable = w_cog
+	enable = w_galley
+	enable = w_barque
+	enable = w_carrack 
+
+    wow_shipyard = yes
+    wow_dock = yes
+    wow_market = yes
+    wow_tavern = yes
+    wow_workshop = yes
+}
+# 1
+technology = {
+	year = 550
+	
+    may_fabricate_claims = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 2
+technology = {
+	year = 555
+	
+    may_study_technology = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 3
+technology = {
+	year = 560
+	
+    may_slander_merchants = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 4
+technology = {
+	year = 565
+	
+    may_sabotage_recruitment = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 5
+technology = {
+	year = 570
+	
+    may_corrupt_officials = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 6
+technology = {
+	year = 575
+	
+    may_agitate_for_liberty = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 7
+technology = {
+	year = 580
+	
+    may_steal_maps = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 8
+technology = {
+	year = 585
+	
+    may_infiltrate_administration = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 9
+technology = {
+	year = 590
+	
+    may_sow_discontent = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 10
+technology = {
+	year = 595
+	
+    may_sabotage_reputation = yes
+    
+    wow_grand_shipyard = yes
+    wow_drydock = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 11
+technology = {
+	year = 600
+	
+    wow_grand_market = yes
+    wow_well_kept_tavern = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 12
+technology = {
+	year = 605
+	
+    wow_grand_workshop = yes
+    wow_tomb_of_riches = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 13
+technology = {
+	year = 610
+	
+    wow_naval_academy = yes
+    wow_grand_monument = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 14
+technology = {
+	year = 615
+	
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 15
+technology = {
+	year = 620
+	
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 16
+technology = {
+	year = 625
+	
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 17
+technology = {
+	year = 630
+	
+    range = 100
+    trade_range = 100
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 18
+technology = {
+	year = 635
+	
+    range = 100
+    trade_range = 100
+    
+    naval_morale			=	1
+}
+# 19
+technology = {
+	year = 640
+	
+    range = 500
+    trade_range = 500
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
