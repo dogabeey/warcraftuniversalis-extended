@@ -16,6 +16,10 @@ religion = religion_old_gods
 trade_goods = fur
 hre = no
 
+546.1.1 = {
+	add_building = world_tree
+}
+
 622.1.1 = {
 owner = B45
 controller = B45

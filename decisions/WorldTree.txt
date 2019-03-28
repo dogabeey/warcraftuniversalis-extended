@@ -1,0 +1,144 @@
+country_decisions = {
+    burn_nordrassil = {
+        major = yes
+        
+        potential = {
+			religion_group = religion_group_the_void
+			religion_group = religion_group_disorder
+			any_country = {
+				AND = {
+					war_with = ROOT
+					1334 = {
+						has_building = world_tree
+						owned_by = PREV
+					}
+				}
+			}
+        }
+        
+		allow = {
+			1334 = {
+				controlled_by = ROOT
+			}
+		}
+        
+		effect = {
+			add_prestige = -30
+			custom_tooltip = burn_nordrassil_tooltip
+			hidden_effect = {
+				every_country = {
+					limit = {
+						OR = {
+							culture_group = culture_group_darnassian
+							religion_group = religion_group_nature
+						}
+						add_opinion = {
+							who = ROOT
+							modifier = burned_world_tree_opinion
+						}
+					}
+				}
+				add_country_modifier = {
+					name = burned_world_tree
+					duration = 3650  
+					desc = burned_world_tree.desc
+				}
+				1334 = {
+					remove_building = world_tree
+					add_devastation = 100
+					add_base_tax = -100
+					add_base_production = -100
+					add_base_manpower = -100
+					owner = { add_stability = -1 }
+					superregion = {
+						every_province = {
+							add_devastation = 10
+							add_base_tax = -1
+							add_base_production = -1
+							add_base_manpower = -1
+						}
+					}
+				}
+			}
+		}		
+        
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { prestige = 30 }
+					NOT = { is_good = yes }
+				}
+			}
+		}
+		
+		ai_importance = 250
+    }
+    burn_teldrassil = {
+        major = yes
+        
+        potential = {
+			religion_group = religion_group_the_void
+			religion_group = religion_group_disorder
+			any_country = {
+				AND = {
+					war_with = ROOT
+					1073 = {
+						has_building = world_tree
+						owned_by = PREV
+					}
+				}
+			}
+        }
+        
+		allow = {
+			1073 = {
+				controlled_by = ROOT
+			}
+		}
+        
+		effect = {
+			add_prestige = -30
+			custom_tooltip = burn_teldrassil_tooltip
+			hidden_effect = {
+				every_country = {
+					limit = {
+						OR = {
+							culture_group = culture_group_darnassian
+							religion_group = religion_group_nature
+						}
+						add_opinion = {
+							who = ROOT
+							modifier = burned_world_tree_opinion
+						}
+					}
+				}
+				add_country_modifier = burned_world_tree
+				1073 = {
+					region = {
+						every_province = {
+							add_devastation = 100
+							add_base_tax = -100
+							add_base_production = -100
+							add_base_manpower = -100
+						}
+					}
+				}
+			}
+		}		
+        
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { prestige = 30 }
+					NOT = { is_good = yes }
+				}
+			}
+		}
+		
+		ai_importance = 250
+    }
+}

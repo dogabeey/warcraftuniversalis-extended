@@ -5497,7 +5497,6 @@ guiTypes = {
 			maxHeight = 18
 			text = "2000¤"	
 		}
-        
         # Temple
         checkboxType = {
 			name = "build_wow_temple"
@@ -6353,6 +6352,24 @@ guiTypes = {
 		instantTextBoxType={
 			name = "wow_military_academy_cost"
 			position = {x = 537 y = 276 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
+		
+        # World Tree
+        checkboxType = {
+			name = "build_world_tree"
+			position = { x = 589 y = 226 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		instantTextBoxType={
+			name = "world_tree_cost"
+			position = {x = 589 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128

@@ -1,0 +1,18 @@
+# ROOT: province
+# FROM: owning country
+world_tree = {
+    cost = 0                # Cost of the building in ducats
+    time = 0             # Time (in months) that it takes to construct the building
+    
+    indestructible = yes            # Optional, exempts this building from being destroyed via bankruptcy
+    
+    # Optional. Province scope. Limits construction of building if not met.
+    trigger = {
+        always = no
+    }
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 1
+    }
+}

@@ -572,4 +572,9 @@ spriteTypes = {
 		name = "GFX_combat_terrain_impassable_mountains"
 		texturefile = "gfx//interface//terrain//combat_terrain_impassable_mountains.dds"
 	}
+	spriteType = {
+		name = "GFX_world_tree"
+		texturefile = "gfx//interface//buildings//world_tree.tga"
+		loadType = "INGAME"
+	}
 }

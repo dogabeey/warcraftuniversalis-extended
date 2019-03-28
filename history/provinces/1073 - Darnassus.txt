@@ -25,4 +25,5 @@ hre = no
 	base_tax = 6
 	base_manpower = 7
 	base_production = 6
+	add_building = world_tree
 }

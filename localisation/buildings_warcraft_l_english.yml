@@ -56,3 +56,6 @@
  
  building_wow_naval_academy: "Naval Academy"
  building_wow_military_academy: "Military Academy"
+ 
+ building_world_tree: "The World Tree"
+ building_world_tree_desc: "World Trees are giant magical trees scattered through Azeroth, whose roots are connected to the Emerald Dream. Destroying or corrupting them may cause planet-wide catastrophic events. It must be protected from the evil at all cost!"

@@ -220,6 +220,9 @@
  proclaimed_strength: "Proclaimed Strength"
  desc_proclaimed_strength: "We have proclaimed our strength!"
  
+ burned_world_tree: "Burned a world tree!"
+ burned_world_tree.desc: "We destroyed a world tree and now we will be seen as evil by the most countries."
+ 
  #------------------------------------------------
  # Rise of the Horde
  #------------------------------------------------
