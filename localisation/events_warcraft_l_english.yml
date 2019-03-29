@@ -1,5 +1,22 @@
 ﻿l_english:
  #-----------------------------------------------
+ # Flavors - Murloc
+ #-----------------------------------------------
+ murloc_mating_call.title: "The Mating Call"
+ murloc_mating_call.desc: "It is yet another mating season in tribe! Females in murloc culture usually mates with the male with the biggest shiny. Thus, males across the coast do their best to find shiniest shiny in deep sea to attract the shiniest females! As [Root.Monarch.GetTitle] of [Root.GetName], It is a matter of prestige to have most beautiful shiny in tribe. So [Root.Monarch.GetName] must do his best to get the best shiny.\n\nShiny!"
+ murloc_mating_call.opt1: "\"I will mrgrl beneath deep sea and get a shiny!\" (Beware: Things may get mrgrlgrl out there!)"
+ murloc_mating_call.opt2: "\"I will buy a shiny from a mrgrilling merchant.\""
+ murloc_mating_call.opt3: "\"I can't focus on such mrgls right now.\""
+ murloc_net.title: "Better Nets For our Netters"
+ murloc_net.desc: "A murloc has no more valuable possession than [Root.Monarch.GetHerHis] net, once a wise oracle said. Fishing nets are a big part of our culture and we must make sure that our fish production continues without setbacks.\n\nRecently, our oracles discovered a new kind of silk that makes our nets more durable. We should consider about making upgrades on our fish production.
+ murloc_net.opt1: "Distribute this new tech across the coast"
+ murloc_net.opt2: "We should try this one of our provinces for now."
+ murloc_net.opt2: "Alien tech! Bad! Go away.!"
+ murloc_king_mrgl.title: "King Mrgl-Mrgl!"
+ murloc_king_mrgl.desc: "A world famous murloc traveller, King Mrgl-Mrgl recently visited our humble tribe to aid help. He is known for his good deeds to amek the world better place for murlocs. Yet there is a rumor that he is seccretly an Elune missionary. Whatever is the reason, he now offers help to us and It might not be wise to reject him outright."
+ murloc_king_mrgl.opt1: "Invite him to our marquee."
+ murloc_king_mrgl.opt2: "Mrgl this infidel away."
+ #-----------------------------------------------
  # Mists of Pandaria
  #-----------------------------------------------
  heir_lost.title: "Our heir is lost in sea!"

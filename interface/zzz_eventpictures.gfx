@@ -239,5 +239,28 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
 		allwaystransparent = yes
 	}	
+	spriteType = {
+		name = "SHA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+
+	spriteType = {
+		name = "MURLOC_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+
+	spriteType = {
+		name = "GNOLL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+
+	spriteType = {
+		name = "KOBOLD_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		allwaystransparent = yes
+	}	
 
 }
