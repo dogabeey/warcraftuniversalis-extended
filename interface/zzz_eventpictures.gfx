@@ -247,19 +247,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "MURLOC_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/MURLOC_eventPicture.dds"
 		allwaystransparent = yes
 	}	
 
 	spriteType = {
 		name = "GNOLL_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/GNOLL_eventPicture.dds"
 		allwaystransparent = yes
 	}	
 
 	spriteType = {
 		name = "KOBOLD_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/KOBOLD_eventPicture.dds"
 		allwaystransparent = yes
 	}	
 

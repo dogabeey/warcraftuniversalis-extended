@@ -10,6 +10,7 @@ country_event = {
 	
 	trigger = {
 		culture_group = culture_group_murloc
+		is_female = no
 	}
 	
 	mean_time_to_happen = {
@@ -20,7 +21,7 @@ country_event = {
 		name = murloc_mating_call.opt1
 		random_list = {
 			20 = {
-				kill_heir = yes
+				kill_ruler = yes
 			}
 			80 = {
 				add_country_modifier = { 
@@ -35,12 +36,12 @@ country_event = {
 	
 	option = {
 		name = murloc_mating_call.opt2
-		add_treasury = -300
+		add_treasury = -200
 		add_country_modifier = { 
 			name = mating_call
-			duration = 180  
-			desc = mating_call_desc
+			duration = 180
 			hidden = no
+		 }
 	}
 	
 	option = {

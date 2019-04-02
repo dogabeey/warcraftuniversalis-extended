@@ -234,3 +234,8 @@
  
  fel_infused: "Fel-infused"
  desc_fel_infused: "Having taken the blood of Mannoroth, our orc clansmen are now fel-infused, granting them more power."
+ 
+ # Misc 
+ 
+ mating_call: "Mating Call"
+ mating_call_desc: "You are wearing a shiny gem which increases your chance with ladies!"

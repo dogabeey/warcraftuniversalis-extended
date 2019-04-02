@@ -18,19 +18,17 @@ country_decisions = {
 			} }
         }
         allow = {
-			if = {
-				limit = {
+			OR = {
+				AND = {
 					has_country_modifier = archaeology_fragment
+					adm_power = 15
+					treasury = 100
 				}
-				adm_power = 15
-				treasury = 100
-			}
-			if = {
-				limit = {
+				AND = {
 					NOT = { has_country_modifier = archaeology_fragment }
+					adm_power = 30
+					treasury = 200
 				}
-				adm_power = 30
-				treasury = 200
 			}
         }
         effect = {

@@ -168,7 +168,7 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect { set_global_flag = capital_fall }
+        hidden_effect = { set_global_flag = capital_fall }
     }
     
 	option = {
@@ -224,7 +224,7 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect { set_global_flag = stormwind_attack }
+        hidden_effect = { set_global_flag = stormwind_attack }
     }
     
 	option = {
@@ -282,7 +282,7 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect { clr_global_flag = the_first_war }
+        hidden_effect = { clr_global_flag = the_first_war }
         # add second war flag here later
     }
     
@@ -388,7 +388,7 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect { clr_global_flag = the_first_war }
+        hidden_effect = { clr_global_flag = the_first_war }
     }
     
 	option = {

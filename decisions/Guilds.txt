@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			any_country
+			any_country =
 			{
 				NOT = { has_country_modifier = is_evil }
 			}

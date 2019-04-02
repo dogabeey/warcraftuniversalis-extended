@@ -248,7 +248,7 @@ country_event = {
     
 	hidden = no
     fire_only_once = no
-	is_triggered_only = yes
+	is_triggered_only = no
     
 	trigger = {
 		has_country_modifier = pact_with_valkyr

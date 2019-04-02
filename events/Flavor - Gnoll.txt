@@ -1,0 +1,30 @@
+namespace = gnoll
+
+country_event = {
+	id = gnoll.1
+	title = gnoll_battle_tactics.title
+	desc = gnoll_battle_tactics.desc
+	picture = GNOLL_eventPicture
+    
+	fire_only_once = no
+	
+	trigger = {
+		culture_group = culture_group_gnoll
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = gnoll_battle_tactics.opt1
+	}
+	
+	option = {
+		name = gnoll_battle_tactics.opt2
+	}
+	
+	option = {
+		name = gnoll_battle_tactics.opt3 
+	}
+}
