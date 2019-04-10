@@ -4,7 +4,6 @@
  #-----------------------------------------------
  raided_by_orcs: "Raided by Orcs"
  dubious_dealings: "Dubious Dealings"
- 
  allies_of_nerzhul: "Allies of Ner'zhul"
  enemies_of_nerzhul: "Enemies of Ner'zhul"
  allies_of_guldan: "Allies of Gul'dan"
@@ -12,3 +11,4 @@
  accepted_the_demonsblood: "Accepted the Demonsblood"
  rejected_the_demonsblood: "Rejected the Demonsblood"
  burned_world_tree_opinion: "Burned a World Tree!"
+ ate_our_citizen: "Ate our citizen!"

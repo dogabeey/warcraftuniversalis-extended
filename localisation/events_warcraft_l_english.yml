@@ -16,6 +16,21 @@
  murloc_king_mrgl.desc: "A world famous murloc traveller, King Mrgl-Mrgl recently visited our humble tribe to aid help. He is known for his good deeds to amek the world better place for murlocs. Yet there is a rumor that he is seccretly an Elune missionary. Whatever is the reason, he now offers help to us and It might not be wise to reject him outright."
  murloc_king_mrgl.opt1: "Invite him to our marquee."
  murloc_king_mrgl.opt2: "Mrgl this infidel away."
+ gnoll_battle_tactics.title: "Battle Tactics!"
+ gnoll_battle_tactics.desc: "For our ongoing war efforts, one of our generals prepared a great battle strategy for us. It has several options for all kind of possiblities without any chance to fail. Now the [Root.GetTitle] shall decide which path we are going to take."
+ gnoll_battle_tactics.opt1: "Kill!"
+ gnoll_battle_tactics.opt2: "Sleep?"
+ gnoll_battle_tactics.opt3: "EAT"
+ gnoll_kidnapping.title: "The Rotten Food"
+ gnoll_kidnapping.desc: "Some of tribesmen decided to cross [KidnapTarget.GetName] border and kidnapped several [KidnapTarget.Culture] villagers to stock them as food supply. Now the outraged villagers are arming against us and [KidnapTarget.GetName] has a good reason to attack us.\n\nWe can force kidnappers to give villagers back, yet this may cost our credibility."
+ gnoll_kidnapping.opt1: "Keep the villagers for winter"
+ gnoll_kidnapping.opt2: "Cook 'em right now!"
+ gnoll_kidnapping.opt3: "\"We cannot risk a war right now\""
+ gnoll_rotten_meat.title: "Kidnapping Incident"
+ gnoll_rotten_meat.desc: "In gnoll culture, It is a custom to eat a deceased kinsman. We never let a meat to waste, as it is biggest shame in our culture.\n\nRecently, a fellow kinsman died after a series of illness and It looks sickly even after death. Tribe oracles warn us that consuming it might be dangerous. Yet we cannot turn back to our traditions."
+ gnoll_rotten_meat.opt1: "\"I cannot fear things that I do not see\""
+ gnoll_rotten_meat.opt2: "Let the tribespeople eat the meat"
+ gnoll_rotten_meat.opt3: "Burn it"
  #-----------------------------------------------
  # Mists of Pandaria
  #-----------------------------------------------

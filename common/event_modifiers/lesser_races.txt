@@ -1,3 +1,7 @@
 mating_call = {
     heir_chance = 0.5
 }
+
+fresh_meat = {
+    land_attrition = -0.1
+}

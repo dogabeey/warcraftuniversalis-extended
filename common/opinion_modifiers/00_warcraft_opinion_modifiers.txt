@@ -105,3 +105,8 @@ burned_world_tree_opinion = {
     opinion = -50
     yearly_decay = 1
 }
+
+ate_our_citizen = {
+    opinion = -50
+    yearly_decay = 1
+}
