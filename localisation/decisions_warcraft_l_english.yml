@@ -26,6 +26,20 @@
  allow_adventurers_title: "Allow Adventurer Guilds"
  allow_adventurers_desc: "Allow forming of independant adventure guilds in country. This will allow us to form adventurer raids against evil countries under diplomatic actions."
  #-----------------------------------------------
+ # Dwarf
+ #-----------------------------------------------
+ unify_dwarves_ironforge_title: "Unify Dwarves"
+ unify_dwarves_ironforge_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
+ unify_dwarves_darkiron_title: "Unify Dwarves"
+ unify_dwarves_darkiron_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
+ unify_dwarves_wildhammer_title: "Unify Dwarves"
+ unify_dwarves_wildhammer_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
+ #-----------------------------------------------
+ # Dark Portal
+ #-----------------------------------------------
+ close_dark_portal_title: "Close the dark portal"
+ close_dark_portal_desc: "Close the dark portal and end orcish reign."
+ #-----------------------------------------------
  # World Trees
  #-----------------------------------------------
  burn_nordrassil_title: "Burn Nordrassil"

@@ -1,0 +1,150 @@
+country_decisions = {
+	close_dark_portal = {
+		major = yes
+		potential = {
+			OR = {
+				current_age = the_first_war
+				current_age = the_second_war
+			}
+			1586 = {
+				NOT = { has_province_modifier = dark_portal_closed }
+			}
+		}
+		allow =  {
+			1586 = {
+				controller = {
+					culture_group = culture_group_human
+				}
+			}
+			mil_power = 100
+		}
+	  	effect = {
+			custom_tooltip = DARK_PORTAL_IS_CLOSED
+			add_mil_power = -100
+        
+			1586 = {
+				add_province_modifier = {
+					name = dark_portal_closed
+					duration = -1
+				}
+			}
+			every_country = {
+				limit = {
+					capital_scope = {
+						continent = continent_outland
+					}
+				}
+				every_province = {
+					limit = {
+						NOT = { continent = continent_outland }
+					}
+					cede_province = previous_owner
+				}
+			}
+			
+			hidden_effect = {   
+				every_country = {
+					limit = {
+						has_country_flag = first_war_orc
+					}
+					
+					add_country_modifier = {
+						name = tfw_orc_defeat
+						duration = 3650
+					}
+				}
+				
+				every_country = {
+					limit = {
+						capital_scope = {
+							NOT = { continent = continent_outland }
+						}
+					}
+					country_event = { id = the_first_war.8 }
+				}
+			}
+			clr_global_flag = the_first_war
+			set_global_flag = the_second_war
+			set_global_flag = tfw_human_victory_path
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				capital_scope = {
+					continent = continent_outland
+				}
+			}
+		}
+	}
+	reopen_dark_portal = {
+		potential = {
+			major = yes
+			1586 = {
+				has_province_modifier = dark_portal_closed
+			}
+			OR = {
+				religion = religion_fel
+				religion = religion_arcane
+			}
+		}
+		allow =  {
+			1586 = {
+				controller = {
+					culture_group = culture_group_human
+				}
+			}
+			mil_power = 100
+		}
+	  	effect = {			
+			add_mil_power = -100
+        1586 = {
+            add_province_modifier = {
+                name = dark_portal_closed
+                duration = -1
+            }
+        }
+        
+        hidden_effect = {   
+            every_country = {
+                limit = {
+                    has_country_flag = first_war_orc
+                }
+
+                random_country = {
+                    limit = { 
+                        has_country_flag = first_war_human
+                        war_with = PREV 
+                    }
+                    
+                    save_event_target_as = human_victor
+                }
+                
+                add_country_modifier = {
+                    name = tfw_orc_defeat
+                    duration = 3650
+                }
+            }
+            
+            every_country = {
+                limit = {
+                    has_country_flag = first_war_human
+                }
+
+                country_event = { id = the_first_war.8 }
+            }
+        }
+		clr_global_flag = the_first_war
+		set_global_flag = the_second_war
+    }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				capital_scope = {
+					NOT = { continent = continent_outland }
+				}
+			}
+		}
+	}
+}

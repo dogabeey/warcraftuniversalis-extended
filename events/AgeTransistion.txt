@@ -10,6 +10,7 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
+		always = no # DELET DIS
 		A01 = {
 			is_in_war = {
 				casus_belli = cb_azeroth_assault
@@ -40,6 +41,7 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
+		always = no # DELET DIS
 		A01 = {
 			NOT = {
 				is_in_war = {

@@ -203,7 +203,6 @@ country_event = {
     major = yes
     
 	trigger = {
-        always = no
         has_global_flag = the_first_war
         NOT = { has_global_flag = stormwind_attack }
         
@@ -224,7 +223,6 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect = { set_global_flag = stormwind_attack }
     }
     
 	option = {
@@ -267,13 +265,13 @@ country_event = {
     major = yes
     
 	trigger = {
-        always = no
         has_global_flag = the_first_war
-        has_global_flag = stormwind_attack
         area_stormwind = {
-            controller = {
-                has_country_flag = first_war_orc
-            }
+			any_province = {
+				controller = {
+					culture_group = culture_group_orc
+				}
+			}
         }
 	}
 	
@@ -283,7 +281,7 @@ country_event = {
     
     immediate = {
         hidden_effect = { clr_global_flag = the_first_war }
-        # add second war flag here later
+        set_global_flag = the_second_war
     }
     
 	option = {
@@ -317,11 +315,6 @@ country_event = {
                         }
                     }
                     kill_units = PREV
-                    event_target:orc_clan = {
-                        PREV = {
-                            change_controller = PREV
-                        }
-                    }
                 }
                 
                 add_country_modifier = {
@@ -352,6 +345,7 @@ country_event = {
     
 	option = {
 		name = the_first_war.6.option.a
+		set_global_flag = tfw_orc_victory_path
 
         add_country_modifier = {
             name = tfw_orc_victory
@@ -372,13 +366,12 @@ country_event = {
 
     major = yes
     
-	trigger = { 
-        always = no
+	trigger = {
+		always = no
         has_global_flag = the_first_war
-        has_global_flag = stormwind_attack
         1035 = {
             controller = {
-                has_country_flag = first_war_human
+                culture_group = culture_group_human
             }
         }
 	}
@@ -388,7 +381,8 @@ country_event = {
     }
     
     immediate = {
-        hidden_effect = { clr_global_flag = the_first_war }
+        clr_global_flag = the_first_war
+        set_global_flag = the_second_war
     }
     
 	option = {
@@ -467,7 +461,7 @@ country_event = {
     
 	option = {
 		name = the_first_war.8.option.a
-
+		set_global_flag = tfw_orc_victory_path
         add_country_modifier = {
             name = tfw_human_victory
             duration = 3650

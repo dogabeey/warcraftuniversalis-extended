@@ -1,0 +1,124 @@
+namespace = the_second_war
+
+#Form Horde
+country_event = {
+	id = the_second_war.1
+	title = horde_forming.title
+	desc = horde_forming.desc
+	picture = ORCISH_INVASION_eventPicture
+
+    hidden = yes
+	fire_only_once = yes
+	major = yes
+    
+	trigger = {
+        has_global_flag = the_second_war
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+		every_country = {
+			limit = {
+				culture_group = culture_group_orc
+				NOT = {
+					any_country = {
+						total_development = PREV
+					}
+				}
+			}
+			save_event_target_as = most_developed_horde
+		}
+		
+		event_target:most_developed = {
+			add_country_modifier = {
+				name = horde_head
+				duration = -1
+			}
+			add_country_modifier = {
+				name = horde_member
+				duration = -1
+			}
+		}
+    }
+    
+	option = {
+		name = horde_forming.opt1
+    }
+}
+#Form Alliance
+country_event = {
+	id = the_second_war.2
+	title = alliance_forming.title
+	desc = alliance_forming.desc
+	picture = ORCISH_INVASION_eventPicture
+
+    hidden = yes
+	fire_only_once = yes
+	major = yes
+    
+	trigger = {
+        has_global_flag = the_second_war
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+		every_country = {
+			limit = {
+				culture_group = culture_group_human
+				NOT = {
+					any_country = {
+						total_development = PREV
+					}
+				}
+			}
+			save_event_target_as = most_developed_alliance
+		}
+		
+		event_target:most_developed = {
+			add_country_modifier = {
+				name = alliance_head
+				duration = -1
+			}
+			add_country_modifier = {
+				name = alliance_member
+				duration = -1
+			}
+		}
+    }
+    
+	option = {
+		name = alliance_forming.opt1
+    }
+}
+#Orc Victory Path
+country_event = {
+	id = the_second_war.2
+	title = alliance_forming.title
+	desc = alliance_forming.desc
+	picture = ORCISH_INVASION_eventPicture
+
+    hidden = no
+	fire_only_once = yes
+    
+	trigger = {
+		always = no
+        has_global_flag = tfw_orc_victory_path
+	}
+	
+    mean_time_to_happen = {
+		months = 6
+    }
+    
+    immediate = {
+    }
+    
+	option = {
+		name = alliance_forming.opt1
+    }
+}

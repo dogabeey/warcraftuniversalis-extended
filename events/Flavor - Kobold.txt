@@ -1,0 +1,80 @@
+namespace = kobold
+
+country_event = {
+	id = kobold.1
+	title = kobold_pick.title
+	desc = kobold_pick.desc
+	picture = MURLOC_eventPicture
+    
+	fire_only_once = no
+	
+	trigger = {
+		always = no # DELETE THIS WHEN READY TO TEST
+		culture_group = culture_group_kobold
+		any_owned_province = {
+			trade_goods = gold
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = kobold_pick.opt1
+		every_owned_province = {
+			limit = {
+				trade_goods = gold
+			}
+			add_base_production = 1
+			owner = { add_adm_power = -50 }
+		}
+	}
+	
+	option = {
+		name = kobold_pick.opt2
+		random_owned_province = {
+			limit = {
+				trade_goods = gold
+			}
+			add_base_production = 1
+			owner = { add_adm_power = -50 }
+		}
+	}
+	
+	option = {
+		name = kobold_pick.opt3
+		
+	}
+}
+
+country_event = {
+	id = kobold.2
+	title = kobold_candle.title
+	desc = kobold_candle.desc
+	picture = MURLOC_eventPicture
+    
+	fire_only_once = no
+	
+	trigger = {
+		culture_group = culture_group_kobold
+		always = no # DELETE THIS WHEN READY TO TEST
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = kobold_candle.opt1
+	}
+	
+	option = {
+		name = kobold_candle.opt2
+	}
+	
+	option = {
+		name = kobold_candle.opt3
+		
+	}
+}

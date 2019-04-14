@@ -5,6 +5,10 @@ country_decisions = {
 		potential = {
 			has_global_flag = lich_king_awakened
 			NOT = { has_country_modifier = lich_kings_crown }
+			OR = {
+				current_age = the_third_war
+				current_age = wrath_of_the_lich_king
+			}
 		}
 		
 		allow = 
