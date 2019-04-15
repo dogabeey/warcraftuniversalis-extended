@@ -1,0 +1,53 @@
+enslave_dragonflight = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		current_age = the_second_war
+		culture_group = culture_group_orc
+		any_country = {
+			culture_group = culture_group_dragonkin
+			is_subject = no
+		}
+		NOT = {
+			any_country = {
+				culture_group = culture_group_dragonkin
+				is_subject_of = ROOT
+			}
+		}
+	}
+	abort = {
+		NOT = {
+			any_country = {
+				culture_group = culture_group_dragonkin
+				is_subject = no
+			}
+		}
+	}
+	success = {
+		random_country = {
+			limit = {
+				culture_group = culture_group_dragonkin
+			}
+		}
+	}
+	
+	chance = {
+		factor = 10000
+	}
+	
+	immediate = {
+
+	}
+	
+	abort_effect = {
+
+	}
+	effect = {
+		build_to_forcelimit = {
+			draconic_dragonspawn = 0.1
+		}
+	}
+}

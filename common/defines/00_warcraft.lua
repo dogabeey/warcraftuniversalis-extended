@@ -90,6 +90,7 @@ NDefines.NMilitary.HEAVY_SHIP_SPEED = 12.0
 NDefines.NMilitary.LIGHT_SHIP_SPEED = 20.0 
 NDefines.NMilitary.GALLEY_SPEED = 8.0 
 NDefines.NMilitary.TRANSPORT_SPEED = 12.0 
+NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.1 
 
 NDefines.NMilitary.WAR_ENTHUSIASM_HIGH_THRESHOLD = 0			-- desire for peace must be less than this for high war enthuasiasm
 NDefines.NMilitary.WAR_ENTHUSIASM_LOW_THRESHOLD = -25				-- desire for peace must be more than this for low war enthusiasm

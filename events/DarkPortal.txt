@@ -34,4 +34,77 @@ country_event = {
         }
 	}
 }
+#Render azerothian provinces those owned by outland countries useless if dark portal is closed.
+province_event = {
+	id = dark_portal.2
+	title = dark_portal_trapped.title
+	desc = dark_portal_trapped.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = yes
+    fire_only_once = no
+    
+	trigger = {
+		NOT = { has_province_modifier = cut_out_from_outland }
+		continent = continent_outland
+		owner = {
+			capital_scope = {
+				continent = continent_outland
+			}
+		}
+		1586 = {
+			has_province_modifier = dark_portal_closed
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = cut_out_from_outland
+			duration = -1
+		}
+		owner = {
+			PREV = {
+				remove_core = PREV
+			}
+		}
+	}
+	
+	option = {
+        name = dark_portal_trapped.opt1
+	}
+}
+
+province_event = {
+	id = dark_portal.3
+	title = dark_portal_detrapped.title
+	desc = dark_portal_detrapped.desc
+	picture = DIPLOMACY_eventPicture
+    
+	hidden = yes
+    fire_only_once = no
+    
+	trigger = {
+		has_province_modifier = cut_out_from_outland
+		continent = continent_outland
+		1586 = {
+			NOT = { has_province_modifier = dark_portal_closed }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_province_modifier = cut_out_from_outland
+	}
+	
+	option = {
+        name = dark_portal_detrapped.opt1
+	}
+}
 

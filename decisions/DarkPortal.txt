@@ -2,27 +2,32 @@ country_decisions = {
 	close_dark_portal = {
 		major = yes
 		potential = {
-			OR = {
-				current_age = the_first_war
-				current_age = the_second_war
+			NOT = {
+				current_age = rise_of_the_horde
 			}
 			1586 = {
 				NOT = { has_province_modifier = dark_portal_closed }
 			}
+			capital_scope = {
+				NOT = { continent = continent_outland }
+			}
 		}
 		allow =  {
 			1586 = {
-				controller = {
-					culture_group = culture_group_human
-				}
+				controlled_by = ROOT
 			}
 			mil_power = 100
 		}
 	  	effect = {
-			custom_tooltip = DARK_PORTAL_IS_CLOSED
 			add_mil_power = -100
         
 			1586 = {
+				add_province_modifier = {
+					name = dark_portal_closed
+					duration = -1
+				}
+			}
+			1035 = {
 				add_province_modifier = {
 					name = dark_portal_closed
 					duration = -1
@@ -38,7 +43,6 @@ country_decisions = {
 					limit = {
 						NOT = { continent = continent_outland }
 					}
-					cede_province = previous_owner
 				}
 			}
 			
@@ -67,6 +71,7 @@ country_decisions = {
 			set_global_flag = the_second_war
 			set_global_flag = tfw_human_victory_path
 		}
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -78,66 +83,88 @@ country_decisions = {
 		}
 	}
 	reopen_dark_portal = {
+		major = yes
 		potential = {
-			major = yes
+			NOT = {
+				current_age = rise_of_the_horde
+			}
+			NOT = {
+				current_age = the_first_war
+			}
 			1586 = {
 				has_province_modifier = dark_portal_closed
 			}
-			OR = {
-				religion = religion_fel
-				religion = religion_arcane
-			}
 		}
 		allow =  {
-			1586 = {
-				controller = {
-					culture_group = culture_group_human
+			OR = {
+				AND = {
+					1586 = {
+						owned_by = ROOT
+					}
+					any_ally = {
+						1035 = {
+							OR = {
+								owned_by = THIS
+								owned_by = PREV
+							}
+						}
+					}
+					mil_power = 100
+				}
+				AND = {
+					1035 = {
+						owned_by = ROOT
+					}
+					any_ally = {
+						1586 = {
+							OR = {
+								owned_by = THIS
+								owned_by = PREV
+							}
+						}
+					}
+					mil_power = 100
 				}
 			}
-			mil_power = 100
 		}
 	  	effect = {			
 			add_mil_power = -100
-        1586 = {
-            add_province_modifier = {
-                name = dark_portal_closed
-                duration = -1
-            }
-        }
-        
-        hidden_effect = {   
-            every_country = {
-                limit = {
-                    has_country_flag = first_war_orc
-                }
-
-                random_country = {
-                    limit = { 
-                        has_country_flag = first_war_human
-                        war_with = PREV 
-                    }
-                    
-                    save_event_target_as = human_victor
-                }
-                
-                add_country_modifier = {
-                    name = tfw_orc_defeat
-                    duration = 3650
-                }
-            }
-            
-            every_country = {
-                limit = {
-                    has_country_flag = first_war_human
-                }
-
-                country_event = { id = the_first_war.8 }
-            }
-        }
-		clr_global_flag = the_first_war
-		set_global_flag = the_second_war
-    }
+			1586 = {
+				remove_province_modifier = dark_portal_closed
+			}
+			1035 = {
+				remove_province_modifier = dark_portal_closed
+			}
+			every_country = {
+				limit = {
+					capital_scope = {
+						NOT = { continent = continent_outland }
+					}
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = opened_dark_portal_neg
+				}
+			}
+			every_country = {
+				limit = {
+					capital_scope = {
+						continent = continent_outland
+					}
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = opened_dark_portal_pos
+				}
+				add_trust = {
+					who = ROOT
+					value = 25
+					mutual = yes
+				}
+			}
+		}
 		ai_will_do = {
+			# TODO: Add more detail here. 
 			factor = 1
 			modifier = {
 				factor = 0

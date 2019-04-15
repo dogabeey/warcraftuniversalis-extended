@@ -1,0 +1,3 @@
+demon_soul = {
+	liberty_desire = -10
+}

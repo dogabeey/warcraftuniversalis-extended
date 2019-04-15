@@ -234,6 +234,11 @@
  
  fel_infused: "Fel-infused"
  desc_fel_infused: "Having taken the blood of Mannoroth, our orc clansmen are now fel-infused, granting them more power."
+ #------------------------------------------------
+ # Second War
+ #------------------------------------------------
+ demon_soul: "Demon Soul"
+ demon_soul.desc: "Demon soul, mostly known as Dragon Soul, is a powerful magical artifact created by Deathwing ten thousand years ago. By tricking the dragon aspects to channel their life essence, Deathwing was able weaken them forever. It is later used by Dragonmaw clan to enslave Red Dragonflight during the Second War."
  
  # Misc 
  

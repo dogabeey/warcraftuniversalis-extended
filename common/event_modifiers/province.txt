@@ -25,3 +25,13 @@ sexually_frustrated = {
 }
 
 roaming_orcs = { }
+
+cut_out_from_outland = { 
+	local_core_creation = 100
+	local_build_time = 1000
+	local_build_cost = 1000
+	local_tax_modifier = -1
+	local_manpower_modifier = -1
+	local_production_efficiency = -1
+    local_unrest = 10
+}
