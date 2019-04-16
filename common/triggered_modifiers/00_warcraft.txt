@@ -148,12 +148,14 @@ is_evil = {
     
 	trigger = {
 		OR = {
+			corruption = 10
+			overextension_percentage = 100
 			has_country_modifier = summoned_oldgod
 			has_country_modifier = lich_kings_crown
 			has_country_modifier = burned_world_tree
 		}
 	}
     
-     	global_unrest = 1
-		 yearly_corruption = 0.1
+	yearly_corruption = 0.15
+    global_unrest = 2
 }

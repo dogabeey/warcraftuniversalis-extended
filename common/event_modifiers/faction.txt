@@ -1,17 +1,23 @@
 horde_member = {
-    diplomatic_upkeep = 2
+    diplomatic_upkeep = 3
+	prestige = 0.25
 }
 
 alliance_member = {
-    diplomatic_upkeep = 2	
+    diplomatic_upkeep = 3
+	prestige = 0.25	
 }
 
 alliance_head = {
-    diplomatic_upkeep = 2
+    diplomatic_upkeep = 4
+	prestige = 0.5
+	diplomatic_reputation = 1
 }
 
 horde_head = {
-    diplomatic_upkeep = 2
+    diplomatic_upkeep = 4
+	prestige = 0.5
+	diplomatic_reputation = 1
 }
 
 neutral_member = {

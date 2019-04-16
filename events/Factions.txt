@@ -174,3 +174,62 @@ country_event = {
 		}
 	}
 }
+#Build trust with your faction leaders in time.
+country_event = {
+	id = factions.7
+	title = factions.7.title
+	desc = factions.7.desc
+	picture = ORC_SHAMAN_eventPicture
+
+	major = no
+    is_triggered_only = no
+	hidden = yes
+    
+	trigger = {
+		OR = {
+			has_country_modifier = horde_member
+			has_country_modifier = alliance_member
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		name = factions.7.option.a
+		if = {
+			limit = {
+				has_country_modifier = horde_member
+			}
+			random_country = {
+				limit = { has_country_modifier = horde_head }
+				ROOT = {
+					add_trust = {
+						who = PREV
+						value = 10
+						mutual = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = alliance_member
+			}
+			random_country = {
+				limit = { has_country_modifier = alliance_head }
+				ROOT = {
+					add_trust = {
+						who = PREV
+						value = 10
+						mutual = yes
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+	}
+}

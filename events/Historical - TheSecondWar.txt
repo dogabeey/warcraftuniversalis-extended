@@ -19,7 +19,7 @@ country_event = {
 	major = yes
     
 	trigger = {
-        has_global_flag = the_second_war
+        current_age = the_second_war
 	}
 	
     mean_time_to_happen = {
@@ -28,6 +28,10 @@ country_event = {
     
     immediate = {
 		hidden_effect = {
+			every_country = {
+				limit = { has_country_modifier = horde_head }
+				remove_country_modifier = horde_head
+			}
 			every_country = {
 				limit = {
 					culture_group = culture_group_orc
@@ -76,7 +80,7 @@ country_event = {
 	major = yes
     
 	trigger = {
-        has_global_flag = the_second_war
+        current_age = the_second_war
 	}
 	
     mean_time_to_happen = {
@@ -85,6 +89,10 @@ country_event = {
     
     immediate = {
 		hidden_effect = {
+			every_country = {
+				limit = { has_country_modifier = alliance_head }
+				remove_country_modifier = alliance_head
+			}
 			every_country = {
 				limit = {
 					culture_group = culture_group_human
@@ -114,9 +122,9 @@ country_event = {
 		name = alliance_forming.opt1
     }
 }
-#Orc Victory Path
+#Demon soul
 country_event = {
-	id = the_second_war.3
+	id = the_second_war.4
 	title = demon_soul_event.title
 	desc = demon_soul_event.desc
 	picture = ORCISH_INVASION_eventPicture
@@ -132,7 +140,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		months = 24
+		months = 12
     }
     
     immediate = {
@@ -143,6 +151,101 @@ country_event = {
 		add_country_modifier = {
 			name = demon_soul
 			duration = -1
+		}
+    }
+}
+#Beginning of Second War. Requires both faction leaders are at war with each other and each having at least three allies. 
+country_event = {
+	id = the_second_war.3
+	title = the_second_war_starting.title
+	desc = the_second_war_starting.desc
+	picture = ORCISH_INVASION_eventPicture
+
+    hidden = no
+	fire_only_once = yes
+	major = no
+    
+	trigger = {
+		current_age = the_second_war
+		OR = {
+			has_country_modifier = alliance_member
+			has_country_modifier = horde_member
+		}
+		any_country = {
+			has_country_modifier = alliance_head
+			any_country = {
+				has_country_modifier = horde_head
+				war_with = PREV
+			}
+		}
+	}
+	
+    mean_time_to_happen = {
+		months = 1
+    }
+    
+    immediate = {
+		set_global_flag = tsw_last_war_started
+		random_country = {
+			limit = {
+				has_country_modifier = alliance_head
+			}
+			save_event_target_as = alliance_head_target
+		}
+		random_country = {
+			limit = {
+				has_country_modifier = horde_head
+			}
+			save_event_target_as = horde_head_target
+		}
+    }
+    
+	option = {
+		name = the_second_war_starting.opt1 # FOR THE ALLIANCE
+		trigger = {
+			has_country_modifier = alliance_member
+		}
+    }
+	option = {
+		name = the_second_war_starting.opt2 # FOR THE HORDE
+		trigger = {
+			has_country_modifier = horde_member
+		}
+    }
+	option = {
+		name = the_second_war_starting.opt4 # I will stay away from this conflict
+		trigger = {
+			NOT = {
+				has_country_modifier = horde_member
+				has_country_modifier = alliance_member
+				any_country = {
+					has_country_modifier = alliance_head
+					war_with = ROOT
+				}
+				any_country = {
+					has_country_modifier = horde_head
+					war_with = ROOT
+				}
+			}
+		}
+    }
+	option = {
+		name = the_second_war_starting.opt3 # FOR OURSELVES
+		trigger = {
+			NOT = {
+				has_country_modifier = horde_member
+				has_country_modifier = alliance_member
+			}
+			OR = {
+				any_country = {
+					has_country_modifier = alliance_head
+					war_with = ROOT
+				}
+				any_country = {
+					has_country_modifier = horde_head
+					war_with = ROOT
+				}
+			}
 		}
     }
 }

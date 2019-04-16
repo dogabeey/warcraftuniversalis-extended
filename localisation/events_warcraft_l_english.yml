@@ -286,14 +286,21 @@
  # The Second War
  #-----------------------------------------------
  horde_forming.title: "Horde Reform"
- horde_forming.desc.1: "The first war is won. Yet even more conflict awaits Azeroth and its denizens, as the humans are gathering allies of other races to combat the orcs once again and destroy them.\n\nTo defend our clans, we also must gather allies. It is time to reform the Horde before the Alliance rallies and push us back."
- horde_forming.desc.2: "The first war is lost. Yet we cannot falter as we must survive this dying world together. The Dark Portal can be reopened with the help of our allies on the others side.\n\nUntil then, we must bolster our strength and reform the scattered Horde."
+ horde_forming.desc.1: "The war is won. Yet even more conflict awaits Azeroth and its denizens, as the humans are gathering allies of other races to combat the orcs once again and destroy them.\n\nTo defend our clans, we also must gather allies. It is time to reform the Horde before the Alliance rallies and push us back."
+ horde_forming.desc.2: "The war is lost. Yet we cannot falter as we must survive this dying world together. The Dark Portal can be reopened with the help of our allies on the others side.\n\nUntil then, we must bolster our strength and reform the scattered Horde."
  horde_forming.opt1: "FOR THE HORDE!"
  
  alliance_forming.title: "Alliance of Azeroth"
- alliance_forming.desc.2: "The first war is won. Yet even more conflict awaits Azeroth and its denizens, as the remnants of orcs are gathering allies of other races to reopen the dark portal and make one more assault to Azeroth.\n\nTo defend our lands, we also must gather allies. It is time to form an Alliance to fight against any future invasion of demons."
- alliance_forming.desc.1: "The first war is lost. Yet we cannot falter as we must survive against the evil, together. We will have oppurtunities to push the orcs back.\n\nUntil then, we must bolster our strength and unite against the evil. We must form a persistent Alliance to protect and retake Azeroth. The Alliance will prevail!"
+ alliance_forming.desc.2: "The war is won. Yet even more conflict awaits Azeroth and its denizens, as the remnants of orcs are gathering allies of other races to reopen the dark portal and make one more assault to Azeroth.\n\nTo defend our lands, we also must gather allies. It is time to form an Alliance to fight against any future invasion of demons."
+ alliance_forming.desc.1: "The war is lost. Yet we cannot falter as we must survive against the evil, together. We will have oppurtunities to push the orcs back.\n\nUntil then, we must bolster our strength and unite against the evil. We must form a persistent Alliance to protect and retake Azeroth. The Alliance will prevail!"
  alliance_forming.opt1: "FOR THE ALLIANCE!"
+ 
+ the_second_war_starting.title: "THE SECOND WAR"
+ the_second_war_starting.desc: "Tension between the Horde and the Alliance reached a boiling point when [alliance_head_target.GetName] went full-scale war against [horde_head_target.GetName] . The sides have been picked and the allies of both factions have gathered around their faction banners.\n\nThe Second Great War for Azeroth's fate begins, now."
+ the_second_war_starting.opt1: "The Light be with us!"
+ the_second_war_starting.opt2: "Victory or Death!"
+ the_second_war_starting.opt3: "[Root.GetName] will prevail!"
+ the_second_war_starting.opt3: "They better not fight on my backyard!"
  
  demon_soul_event.title: "Demon Soul"
  demon_soul_event.desc: "A strange looking orc who calls himself \"Warlord Prestor\" stopped by [Root.Capital.GetName] and told us about a powerful artifact that would let us enslave dragonkin. Although his credibility was very questionable, many decided to believe him when he revealed his true form: A terrifying black dragon with a molten heart and body.\n\nHe then gave very clear description of the location of the artifact and warned us about It would be wise to acquire it."
