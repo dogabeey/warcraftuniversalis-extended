@@ -27,38 +27,58 @@ country_event = {
     }
     
     immediate = {
-		hidden_effect = {
-			every_country = {
-				limit = { has_country_modifier = horde_head }
-				remove_country_modifier = horde_head
-			}
-			every_country = {
-				limit = {
-					culture_group = culture_group_orc
-					NOT = {
-						any_country = {
-							total_development = PREV
-						}
-					}
-				}
-				save_event_target_as = most_developed_horde
-			}
-			
-			event_target:most_developed = {
-				add_country_modifier = {
-					name = horde_head
-					duration = -1
-				}
-				add_country_modifier = {
-					name = horde_member
-					duration = -1
-				}
-			}
-		}
     }
     
 	option = {
 		name = horde_forming.opt1
+		if = {
+			limit = {
+				A41 = {
+					total_development = 400
+					is_subject = no
+				}
+			}
+			A41 = {
+				add_country_modifier = {
+					name = horde_head
+					duration = -1
+				}			
+				add_country_modifier = {
+					name = horde_member
+					duration = -1
+				}			
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					A41 = {
+						total_development = 400
+						is_subject = no
+					}
+				}
+				any_country = {
+					culture_group = culture_group_orc
+					total_development = 300
+					is_subject = no
+				}
+			}
+			random_country = {
+				limit = {
+					culture_group = culture_group_orc
+					total_development = 300
+					is_subject = no
+				}
+				add_country_modifier = {
+					name = horde_head
+					duration = -1
+				}	
+				add_country_modifier = {
+					name = horde_member
+					duration = -1
+				}	
+			}
+		}
     }
 }
 #Form Alliance
@@ -88,38 +108,58 @@ country_event = {
     }
     
     immediate = {
-		hidden_effect = {
-			every_country = {
-				limit = { has_country_modifier = alliance_head }
-				remove_country_modifier = alliance_head
-			}
-			every_country = {
-				limit = {
-					culture_group = culture_group_human
-					NOT = {
-						any_country = {
-							total_development = PREV
-						}
-					}
-				}
-				save_event_target_as = most_developed_alliance
-			}
-			
-			event_target:most_developed = {
-				add_country_modifier = {
-					name = alliance_head
-					duration = -1
-				}
-				add_country_modifier = {
-					name = alliance_member
-					duration = -1
-				}
-			}
-		}
     }
     
 	option = {
 		name = alliance_forming.opt1
+		if = {
+			limit = {
+				A08 = {
+					total_development = 400
+					is_subject = no
+				}
+			}
+			A08 = {
+				add_country_modifier = {
+					name = alliance_head
+					duration = -1
+				}		
+				add_country_modifier = {
+					name = alliance_member
+					duration = -1
+				}			
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					A08 = {
+						total_development = 400
+						is_subject = no
+					}
+				}
+				any_country = {
+					culture_group = culture_group_human
+					total_development = 400
+					is_subject = no
+				}
+			}
+			random_country = {
+				limit = {
+					culture_group = culture_group_human
+					total_development = 400
+					is_subject = no
+				}
+				add_country_modifier = {
+					name = alliance_head
+					duration = -1
+				}	
+				add_country_modifier = {
+					name = alliance_member
+					duration = -1
+				}	
+			}
+		}
     }
 }
 #Demon soul
@@ -150,7 +190,7 @@ country_event = {
 		name = demon_soul_event.opt1
 		add_country_modifier = {
 			name = demon_soul
-			duration = -1
+			duration = 3650
 		}
     }
 }

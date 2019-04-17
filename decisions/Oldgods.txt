@@ -11,9 +11,9 @@ country_decisions = {
 		
 		allow = {
             stability = 3
-            adm_power = 500
-            dip_power = 500
-            mil_power = 500
+            adm_power = 400
+            dip_power = 400
+            mil_power = 400
 		}
 		
 		effect = {
@@ -63,6 +63,7 @@ country_decisions = {
 			add_mil_power = -250
 			U02 = {
 				remove_country_modifier = summoned_oldgod
+				add_stability = -1
 			}
 			clr_global_flag = cthun_alive
 			
@@ -70,6 +71,10 @@ country_decisions = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				has_country_modifier = summoned_oldgod
+			}
 		}
 	}
 }
@@ -117,6 +122,13 @@ country_decisions = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					religion_group = religion_group_the_light
+					religion_group = religion_group_order
+				}
+			}
 		}
 		
 	}
@@ -138,14 +150,23 @@ country_decisions = {
 		
 		effect = {
 			add_mil_power = -250
-			U02 = {
-				remove_country_modifier = summoned_oldgod
-			}
-			clr_global_flag = yoggsaron_alive
+				random_country = {
+				{
+					limit = {
+						has_country_modifier = summoned_oldgod
+					}
+					remove_country_modifier = summoned_oldgod
+					add_stability = -1
+				}
+				clr_global_flag = yoggsaron_alive
 		}
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				has_country_modifier = summoned_oldgod
+			}
 		}
 	}
 }

@@ -16,7 +16,7 @@ rise_of_the_horde = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -173,7 +173,9 @@ the_first_war = {
 	start = 592
 	
 	can_start = {
-		has_global_flag = the_first_war
+		hidden_trigger = {
+			has_global_flag = the_first_war
+		}
 	}
 	
 	religious_conflicts = yes
@@ -189,7 +191,7 @@ the_first_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -346,7 +348,9 @@ the_second_war = {
 	start = 598
 	
 	can_start = {
+		hidden_trigger = {
 		has_global_flag = the_second_war
+		}
 	}
 	
 	religious_conflicts = yes
@@ -362,7 +366,7 @@ the_second_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -519,7 +523,9 @@ the_third_war = {
 	start = 617
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = the_third_war
+		}
 	}
     
 	religious_conflicts = yes
@@ -535,7 +541,7 @@ the_third_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -692,7 +698,9 @@ the_frozen_throne = {
 	start = 618
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = the_frozen_throne
+		}
 	}
     
 	religious_conflicts = yes
@@ -708,7 +716,7 @@ the_frozen_throne = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -865,7 +873,9 @@ rise_of_the_qiraji = {
 	start = 622
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = rise_of_the_qiraji
+		}
 	}
     
 	religious_conflicts = yes
@@ -881,7 +891,7 @@ rise_of_the_qiraji = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -1038,7 +1048,9 @@ the_burning_crusade = {
 	start = 625
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = the_burning_crusade
+		}
 	}
     
 	religious_conflicts = yes
@@ -1054,7 +1066,7 @@ the_burning_crusade = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -1211,7 +1223,9 @@ wrath_of_the_lich_king = {
 	start = 626
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = wrath_of_the_lich_king
+		}
 	}
     
 	religious_conflicts = yes
@@ -1227,7 +1241,7 @@ wrath_of_the_lich_king = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -1384,7 +1398,9 @@ the_shattering = {
 	start = 631
 	
 	can_start = {
+		hidden_trigger = {
 		has_global_flag = the_shattering
+		}
 	}
 	
 	religious_conflicts = yes
@@ -1400,7 +1416,7 @@ the_shattering = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler
@@ -1557,7 +1573,9 @@ mists_of_pandaria = {
 	start = 632
 	
     can_start = {
+		hidden_trigger = {
 		has_global_flag = mists_of_pandaria
+		}
 	}
     
 	religious_conflicts = yes
@@ -1573,7 +1591,7 @@ mists_of_pandaria = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 0.1 }
             }
         }
         # Wise Ruler

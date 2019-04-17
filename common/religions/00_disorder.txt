@@ -22,7 +22,7 @@ religion_group_disorder = {
 		}
 		
         hre_heretic_religion = yes
-        
+		
 		on_convert = {
 			change_religion = religion_fel
 			add_prestige = -100

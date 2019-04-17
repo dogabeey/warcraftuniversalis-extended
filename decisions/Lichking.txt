@@ -1,13 +1,55 @@
 country_decisions = {
+	awaken_lich_king = {
+		major = yes
+		
+		potential = {
+			culture_group = culture_group_scourge
+			NOT = { 
+				has_global_flag = lich_king_awakened
+			}
+		}
+		
+		allow = 
+		{
+			1268 = {
+				controlled_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_global_flag = lich_king_awakened
+			every_country = {
+				limit = {
+					has_country_modifier = lich_kings_crown
+				}
+				remove_country_modifier = lich_kings_crown
+			}
+			add_country_modifier = { 
+				name = lich_kings_crown
+				duration = -1
+				hidden = no
+			}
+			every_country = {
+				limit = {
+					culture_group = culture_group_scourge
+				}
+				ROOT = {
+					create_march = PREV
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	claim_throne = {
 		major = yes
 		
 		potential = {
 			has_global_flag = lich_king_awakened
-			NOT = { has_country_modifier = lich_kings_crown }
-			OR = {
-				current_age = the_third_war
-				current_age = wrath_of_the_lich_king
+			NOT = { 
+				has_country_modifier = lich_kings_crown
 			}
 		}
 		
@@ -39,7 +81,7 @@ country_decisions = {
 			}
 			every_country = {
 				limit = {
-					primary_culture = culture_scourge
+					culture_group = culture_group_scourge
 				}
 				ROOT = {
 					create_march = PREV
