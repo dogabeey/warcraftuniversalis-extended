@@ -21,13 +21,14 @@ Legion Invasion for Fel religions & more.
 
 * Cataclysm historical events.
 
+* More than one way to advance through the ages for the cases of history doesn't go as It's supposed to.
+
 ## Planned Features
 
 * Decisions to kill evil beings or retail raid bosses, alongside of Old God decisions.
 
 * A quest for Fel followers to retrieve Sargerite Keystone and open the way for The Burning Legion.
 
-* More than one way to advance through the ages for the cases of history doesn't go as It's supposed to.
 
 * Pandaria historical events including Vol'jin's Rebellion and Garrosh's fall.
 
