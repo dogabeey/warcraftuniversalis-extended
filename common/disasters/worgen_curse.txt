@@ -1,22 +1,27 @@
-worgen_curse_disaster = {
+worgen_curse = {
 	potential = {
-		current_age = the_third_war
 		primary_culture = culture_gilnean
-		has_global_flag = will_never_fire
+		always = yes
 	}
-
 
 	can_start = {
 		has_country_modifier = curse_of_the_worgen
 	}
 	
 	can_stop = {
+		all_owned_province = {
+			culture = culture_gilnean_worgen
+		}
 	}
 	
 	progress = {
 		modifier = {
-				factor = 2
+				factor = 1
 				has_country_modifier = curse_of_the_worgen
+		}
+		modifier = {
+				factor = 1
+				always = 1
 		}
 	}
 	
@@ -27,7 +32,6 @@ worgen_curse_disaster = {
 	}
 	
 	modifier = {
-	
 	}
 
 	on_start = gilneas.4

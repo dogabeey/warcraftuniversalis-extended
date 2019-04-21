@@ -383,8 +383,6 @@ country_event = {
 			type = commandant
 			name = "Genn Graymane"
 			skill = 3
-			culture = culture_gilnean_worgen
-			religion = religion_church_of_the_light
 		}
 		capital_scope = {
 			add_base_manpower = 1

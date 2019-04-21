@@ -123,7 +123,6 @@ country_event = {
 			type = natural_scientist
 			name = "King Mrgl-Mrgl"
 			skill = 3
-			culture = culture_nerglish
 			discount = yes
 		}
 		random = { 

@@ -577,4 +577,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//world_tree.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_necropolis"
+		texturefile = "gfx//interface//buildings//necropolis.tga"
+		loadType = "INGAME"
+	}
 }

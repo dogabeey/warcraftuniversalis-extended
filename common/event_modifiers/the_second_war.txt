@@ -1,3 +1,9 @@
 demon_soul = {
 	liberty_desire = -10
 }
+
+shamanistic_reform = {
+	global_missionary_strength = 0.1
+	global_unrest = 1
+	missionary = 1
+}

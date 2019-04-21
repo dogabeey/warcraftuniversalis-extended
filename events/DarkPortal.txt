@@ -46,7 +46,7 @@ province_event = {
     
 	trigger = {
 		NOT = { has_province_modifier = cut_out_from_outland }
-		continent = continent_outland
+		NOT = { continent = continent_outland }
 		owner = {
 			capital_scope = {
 				continent = continent_outland
@@ -64,7 +64,7 @@ province_event = {
 	immediate = {
 		add_province_modifier = {
 			name = cut_out_from_outland
-			duration = -1
+			duration = 30
 		}
 		owner = {
 			PREV = {
@@ -89,7 +89,7 @@ province_event = {
     
 	trigger = {
 		has_province_modifier = cut_out_from_outland
-		continent = continent_outland
+		NOT = { continent = continent_outland }
 		1586 = {
 			NOT = { has_province_modifier = dark_portal_closed }
 		}

@@ -151,7 +151,6 @@ country_decisions = {
 		effect = {
 			add_mil_power = -250
 				random_country = {
-				{
 					limit = {
 						has_country_modifier = summoned_oldgod
 					}

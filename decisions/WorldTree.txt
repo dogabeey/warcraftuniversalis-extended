@@ -8,12 +8,10 @@ country_decisions = {
 				religion_group = religion_group_disorder
 			}
 			any_country = {
-				AND = {
-					war_with = ROOT
-					1334 = {
-						has_building = world_tree
-						owned_by = PREV
-					}
+				war_with = ROOT
+				1334 = {
+					has_building = world_tree
+					owned_by = PREV
 				}
 			}
         }

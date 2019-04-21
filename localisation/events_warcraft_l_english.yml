@@ -290,6 +290,18 @@
  horde_forming.desc.2: "The war is lost. Yet we cannot falter as we must survive this dying world together. The Dark Portal can be reopened with the help of our allies on the others side.\n\nUntil then, we must bolster our strength and reform the scattered Horde."
  horde_forming.opt1: "[most_developed_horde.GetName] is the new Warchief"
  
+ orcish_reform.title: "Returning to The Roots"
+ orcish_reform.desc.1: "Following the events of aftermath of war, influence of the Shadow Council over Orcs clans has been revealed to public. \n\nRealizing we had been mere puppets of Gul'dan and his warlocks, many settlement is starting to return their shamanistic roots despite all inquisitive efforts of legion agents. Our people in brink of an important decision that may affect the future of our clan. It is ours to decide which path we will lead them. Yet regardless what we decide, It is going to be diffucult era for all."
+ orcish_reform.desc.2: "Following the events of aftermath of war, influence of the Shadow Council over Orcs clans has been revealed to public. \n\nRealizing we had been mere puppets of Gul'dan and his warlocks, many settlement is starting to return their shamanistic roots despite all inquisitive efforts of legion agents. Our people in brink of an important decision that may affect the future of our clan. It is ours to decide which path we will lead them. Yet regardless what we decide, It is going to be diffucult era for all."
+ orcish_reform.opt1: "Inform legion agents that they are no longer welcome here"
+ orcish_reform.opt2: "Slowly weaken legion's grasp"
+ orcish_reform.opt3: "Wait for a better moment"
+ orcish_reform.opt4: "We will stay loyal"
+ orcish_reform.opt1.tt: "There is a small chance that some provinces will convert into ancestral shamanism instantly."
+ orcish_reform.opt2.tt: "There is a small chance that some provinces will convert into ancestral shamanism instantly."
+ orcish_reform.opt3.tt: "Another chance to decide this matter will show up again soon."
+ orcish_reform.opt4.tt: "There is a small chance that some provinces will revolt for religious conversion."
+ 
  alliance_forming.title: "Alliance of Azeroth"
  alliance_forming.desc.2: "The war is won. Yet even more conflict awaits Azeroth and its denizens, as the remnants of orcs are gathering allies of other races to reopen the dark portal and make one more assault to Azeroth.\n\nTo defend our lands, we also must gather allies. It is time to form an Alliance to fight against any future invasion of demons."
  alliance_forming.desc.1: "The war is lost. Yet we cannot falter as we must survive against the evil, together. We will have oppurtunities to push the orcs back.\n\nUntil then, we must bolster our strength and unite against the evil. We must form a persistent Alliance to protect and retake Azeroth. The Alliance will prevail!"

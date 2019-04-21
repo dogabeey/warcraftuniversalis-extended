@@ -20,3 +20,30 @@ world_tree = {
         factor = 1
     }
 }
+
+necropolis = {
+    cost = 2000                # Cost of the building in ducats
+    time = 120             # Time (in months) that it takes to construct the building
+    
+    indestructible = yes            # Optional, exempts this building from being destroyed via bankruptcy
+	influencing_fort = yes
+	
+    # Optional. Province scope. Limits construction of building if not met.
+    trigger = {
+        FROM = {
+			OR = {
+				primary_culture = culture_death_knight
+				primary_culture = culture_scourge
+			}
+		}
+    }
+	
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 500
+    }
+}

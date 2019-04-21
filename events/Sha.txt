@@ -89,9 +89,7 @@ country_event = {
 		any_owned_province = {
 			continent = continent_pandaria
 		}
-		ROOT = {
-			NOT = { stability = 0 }
-		}
+		NOT = { stability = 0 }
 	}
 	
 	mean_time_to_happen = {
@@ -154,7 +152,7 @@ country_event = {
 country_event = {
 	id = sha.3
 	title = violence.title
-	desc = despair.desc
+	desc = violence.desc
 	picture = SHA_eventPicture
     
 	hidden = no
@@ -322,7 +320,7 @@ country_event = {
 				who = ROOT
 				value = -100
 			}
-			
+			total_development = ROOT
 		}
 	}
 	
@@ -396,17 +394,7 @@ country_event = {
 		any_owned_province = {
 			continent = continent_pandaria
 		}
-		OR = { 
-			average_unrest = 5
-			any_country = {
-				ROOT = {
-					has_casus_belli = {
-						type = cb_insult
-						target = PREV
-					}
-				}
-			}
-		}
+		average_unrest = 6
 	}
 	
 	mean_time_to_happen = {
